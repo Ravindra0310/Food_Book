@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login2.xml",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_login2.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    }
+]

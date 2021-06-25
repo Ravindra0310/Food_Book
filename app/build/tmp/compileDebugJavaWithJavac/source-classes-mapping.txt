@@ -1,0 +1,8 @@
+com/ravi/foodbook/databinding/ActivitySignUpBinding.java
+ com.ravi.foodbook.databinding.ActivitySignUpBinding
+com/ravi/foodbook/databinding/ActivityMainBinding.java
+ com.ravi.foodbook.databinding.ActivityMainBinding
+com/ravi/foodbook/BuildConfig.java
+ com.ravi.foodbook.BuildConfig
+com/ravi/foodbook/databinding/ActivityLogin2Binding.java
+ com.ravi.foodbook.databinding.ActivityLogin2Binding
