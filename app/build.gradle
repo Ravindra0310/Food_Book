@@ -12,7 +12,7 @@ android {
 
     defaultConfig {
         applicationId "com.ravi.foodbook"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -44,11 +44,14 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
     def jetpack_version = "2.1.0"
     def arch_version = '2.2.0-alpha01'
     def retrofit_version = "2.6.1"
     def coroutines = "1.1.1"
     def kotlinCoroutineVersion = "1.1.1"
+    def camerax_version = "1.0.0"
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
@@ -94,5 +97,13 @@ dependencies {
 
     //firebase
     implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-database:20.0.0'
+
+    //camera
+    implementation "androidx.camera:camera-core:${camerax_version}"
+    implementation "androidx.camera:camera-camera2:${camerax_version}"
+    implementation "androidx.camera:camera-lifecycle:${camerax_version}"
+    implementation "androidx.camera:camera-view:1.0.0-alpha25"
+    implementation "androidx.camera:camera-extensions:1.0.0-alpha25"
 
 }

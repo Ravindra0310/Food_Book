@@ -6,6 +6,13 @@
     <string name="title_chat">Chat</string>
     <string name="title_post">Post</string>
 
+    <string name="description">Describe your food item....</string>
+    <string name="location1">Flat no./House no.</string>
+    <string name="location2">Street/Area/Landmark</string>
+    <string name="location3">Town/City</string>
+    <string name="price">Enter Price</string>
+    <string name="freshness">Enter Freshness</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
