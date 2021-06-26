@@ -3,27 +3,21 @@ package com.ravi.foodbook.ui.post
 
 import android.app.AlertDialog
 import android.content.DialogInterface
-import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import com.bumptech.glide.Glide
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.firebase.FirebaseApp
-import com.google.firebase.auth.FirebaseAuth
 import com.ravi.foodbook.MainActivity
 import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentPostBinding
 import com.ravi.foodbook.model.data.PostData
-import com.ravi.foodbook.ui.home.HomeViewModel
-import kotlinx.android.synthetic.main.fragment_camera.*
+import kotlinx.android.synthetic.main.activity_bottom_nav.*
 import kotlinx.android.synthetic.main.fragment_post.*
 
 
@@ -34,16 +28,16 @@ class PostFragment : Fragment() {
 
     private final val REQUEST_CODE = 42
 
-    lateinit var uid: String
-    lateinit var userName: String
-    lateinit var userPic: Uri
-    lateinit var foodType: String
-    lateinit var content: String
-    lateinit var pictureUri: String
-    lateinit var location: String
-    lateinit var freshness: String
-    lateinit var time: String
-    lateinit var price: String
+    private lateinit var uid: String
+    private lateinit var userName: String
+    private lateinit var userPic: Uri
+    private lateinit var foodType: String
+    private lateinit var content: String
+    private lateinit var pictureUri: String
+    private lateinit var location: String
+    private lateinit var freshness: String
+    private lateinit var time: String
+    private lateinit var price: String
 
     lateinit var navController: NavController
 
@@ -59,6 +53,9 @@ class PostFragment : Fragment() {
 
         _binding = FragmentPostBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
+
 
         navController = findNavController()
 
@@ -124,6 +121,12 @@ class PostFragment : Fragment() {
             alertDialog.show()
 
         }
+    }
+
+
+    override fun onResume() {
+        super.onResume()
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
     }
 
 

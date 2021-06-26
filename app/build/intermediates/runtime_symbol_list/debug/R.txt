@@ -33,6 +33,8 @@ int anim fragment_fade_exit 0x7f01001f
 int anim fragment_fast_out_extra_slow_in 0x7f010020
 int anim fragment_open_enter 0x7f010021
 int anim fragment_open_exit 0x7f010022
+int anim item_fall_down 0x7f01002a
+int anim layout_animation 0x7f01002b
 int anim mtrl_bottom_sheet_slide_in 0x7f010023
 int anim mtrl_bottom_sheet_slide_out 0x7f010024
 int anim mtrl_card_lowers_interpolator 0x7f010025
@@ -654,6 +656,7 @@ int attr subtitleTextAppearance 0x7f03024e
 int attr subtitleTextColor 0x7f03024f
 int attr subtitleTextStyle 0x7f030250
 int attr suggestionRowLayout 0x7f030251
+int attr swipeRefreshLayoutProgressSpinnerBackgroundColor 0x7f0302c0
 int attr switchMinWidth 0x7f030252
 int attr switchPadding 0x7f030253
 int attr switchStyle 0x7f030254
@@ -2163,6 +2166,7 @@ int drawable notification_template_icon_low_bg 0x7f0700c1
 int drawable notification_tile_bg 0x7f0700c2
 int drawable notify_panel_notification_icon_bg 0x7f0700c3
 int drawable profile_image 0x7f0700c4
+int drawable progress_bar_theme 0x7f0700c9
 int drawable test_custom_background 0x7f0700c5
 int drawable tooltip_frame_dark 0x7f0700c6
 int drawable tooltip_frame_light 0x7f0700c7
@@ -2424,7 +2428,7 @@ int id mtrl_picker_text_input_range_end 0x7f0900fc
 int id mtrl_picker_text_input_range_start 0x7f0900fd
 int id mtrl_picker_title_text 0x7f0900fe
 int id multiply 0x7f0900ff
-int id my_toolbar 0x7f090100
+int id my_toolBar 0x7f0901a0
 int id nav_controller_view_tag 0x7f090101
 int id nav_host_fragment_activity_bottom_nav 0x7f090102
 int id nav_host_fragment_container 0x7f090103
@@ -2492,6 +2496,7 @@ int id shortcut 0x7f090140
 int id showCustom 0x7f090141
 int id showHome 0x7f090142
 int id showTitle 0x7f090143
+int id simpleProgressBar 0x7f0901a2
 int id skipCollapsed 0x7f090144
 int id slide 0x7f090145
 int id smallLabel 0x7f090146
@@ -2512,6 +2517,7 @@ int id status_bar_latest_event_content 0x7f090154
 int id stretch 0x7f090155
 int id submenuarrow 0x7f090156
 int id submit_area 0x7f090157
+int id swipeRefreshLayout 0x7f0901a4
 int id tabMode 0x7f090158
 int id tag_accessibility_actions 0x7f090159
 int id tag_accessibility_clickable_spans 0x7f09015a
@@ -2651,6 +2657,7 @@ int layout activity_chat 0x7f0c001d
 int layout activity_login2 0x7f0c001e
 int layout activity_main 0x7f0c001f
 int layout activity_sign_up 0x7f0c0020
+int layout app_tool_bar 0x7f0c0078
 int layout browser_actions_context_menu_page 0x7f0c0021
 int layout browser_actions_context_menu_row 0x7f0c0022
 int layout custom_dialog 0x7f0c0023
@@ -4468,6 +4475,8 @@ int styleable StateListDrawable_android_enterFadeDuration 4
 int styleable StateListDrawable_android_exitFadeDuration 5
 int[] styleable StateListDrawableItem { 0x01010199 }
 int styleable StateListDrawableItem_android_drawable 0
+int[] styleable SwipeRefreshLayout { 0x7f0302c0 }
+int styleable SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor 0
 int[] styleable SwitchCompat { 0x01010124, 0x01010125, 0x01010142, 0x7f03022b, 0x7f030237, 0x7f030252, 0x7f030253, 0x7f030255, 0x7f030291, 0x7f030292, 0x7f030293, 0x7f0302aa, 0x7f0302ab, 0x7f0302ac }
 int styleable SwitchCompat_android_textOn 0
 int styleable SwitchCompat_android_textOff 1

@@ -12,12 +12,12 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_left.xml",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\item_left.xml"
-    },
-    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_left.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\item_left.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_post.xml",
@@ -54,5 +54,9 @@
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_tool_bar.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\app_tool_bar.xml"
     }
 ]

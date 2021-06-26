@@ -131,6 +131,10 @@ dependencies {
     implementation "androidx.camera:camera-extensions:1.0.0-alpha25"
 
 
+    //swipe to refresh and recycler view
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+
     // Also declare the dependency for the Google Play services library and specify its version
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
