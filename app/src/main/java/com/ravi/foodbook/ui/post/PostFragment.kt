@@ -77,9 +77,11 @@ class PostFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-//            navController.navigate(
-//                    R.id.action_navigation_post_to_cameraFragment
-//                )
+        btnTakePicture.setOnClickListener{
+                        navController.navigate(
+                    R.id.action_navigation_post_to_cameraFragment
+                )
+        }
 
         userNameAndPic.setOnClickListener {
             navController.navigate(R.id.action_navigation_post_to_navigation_profile)

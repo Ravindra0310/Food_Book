@@ -55,7 +55,7 @@ class HomeFragment : Fragment(), OnFoodItemClickListener {
     private fun setRecyclerData() {
 
         foodModelList = arrayListOf<FoodModel>()
-        databaseReference = FirebaseDatabase.getInstance().reference
+        databaseReference = FirebaseDatabase.getInstance().getReference("posts")
         recycler1.setHasFixedSize(true)
         recycler1.layoutManager = LinearLayoutManager(context)
         foodModelAdapter = FoodModelAdapter(foodModelList!!, this)
