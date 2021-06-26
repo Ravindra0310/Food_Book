@@ -12,8 +12,8 @@ import com.google.firebase.auth.FirebaseUser
 import com.ravi.foodbook.R
 import de.hdodenhof.circleimageview.CircleImageView
 
-class ChatAdapter(private val context: Context, private val chatList: ArrayList<Chat>) :
-    RecyclerView.Adapter<ChatAdapter.ViewHolder>() {
+class ChatMessageAdapter(private val context: Context, private val chatList: ArrayList<Chat>) :
+    RecyclerView.Adapter<ChatMessageAdapter.ViewHolder>() {
 
     private val MESSAGE_TYPE_LEFT = 0
     private val MESSAGE_TYPE_RIGHT = 1

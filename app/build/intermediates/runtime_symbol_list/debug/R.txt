@@ -1899,6 +1899,7 @@ int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
 int layout activity_bottom_nav 0x7f0c001c
+int layout activity_chat 0x7f0c0074
 int layout activity_login2 0x7f0c001d
 int layout activity_main 0x7f0c001e
 int layout activity_sign_up 0x7f0c001f
@@ -1921,7 +1922,6 @@ int layout design_navigation_menu_item 0x7f0c002f
 int layout design_text_input_end_icon 0x7f0c0030
 int layout design_text_input_start_icon 0x7f0c0031
 int layout fragment_chat 0x7f0c0032
-int layout fragment_chat_message 0x7f0c0033
 int layout fragment_home 0x7f0c0034
 int layout fragment_post 0x7f0c0035
 int layout fragment_profile 0x7f0c0036

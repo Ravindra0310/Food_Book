@@ -24,8 +24,8 @@ com/ravi/foodbook/databinding/ItemLeftBinding.java
  com.ravi.foodbook.databinding.ItemLeftBinding
 com/ravi/foodbook/databinding/ActivitySignUpBinding.java
  com.ravi.foodbook.databinding.ActivitySignUpBinding
-com/ravi/foodbook/databinding/FragmentChatMessageBinding.java
- com.ravi.foodbook.databinding.FragmentChatMessageBinding
+com/ravi/foodbook/databinding/ActivityChatBinding.java
+ com.ravi.foodbook.databinding.ActivityChatBinding
 com/ravi/foodbook/databinding/ActivityMainBinding.java
  com.ravi.foodbook.databinding.ActivityMainBinding
 com/ravi/foodbook/BuildConfig.java

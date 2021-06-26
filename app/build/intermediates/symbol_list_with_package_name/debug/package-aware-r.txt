@@ -1900,6 +1900,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bottom_nav
+layout activity_chat
 layout activity_login2
 layout activity_main
 layout activity_sign_up
@@ -1922,7 +1923,6 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_chat
-layout fragment_chat_message
 layout fragment_home
 layout fragment_post
 layout fragment_profile

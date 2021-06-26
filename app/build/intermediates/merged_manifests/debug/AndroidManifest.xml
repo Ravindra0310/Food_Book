@@ -24,6 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FoodBook" >
+        <activity android:name="com.ravi.foodbook.ui.chat.ChatActivity" />
         <activity android:name="com.ravi.foodbook.SignUpActivity" />
         <activity android:name="com.ravi.foodbook.MainActivity" />
         <activity android:name="com.ravi.foodbook.LoginActivity" >

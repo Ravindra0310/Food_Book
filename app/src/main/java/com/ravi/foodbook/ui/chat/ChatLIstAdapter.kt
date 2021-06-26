@@ -1,7 +1,7 @@
 package com.ravi.foodbook.ui.chat
 
 import android.content.Context
-import android.os.Bundle
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,7 +14,7 @@ import com.ravi.foodbook.R
 import de.hdodenhof.circleimageview.CircleImageView
 
 
-class ChatLIstAdapter(private val context: Context, private val userList: ArrayList<User>, var onClickListner: OnClickListner) :
+class ChatLIstAdapter(private val context: Context, private val userList: ArrayList<User>) :
     RecyclerView.Adapter<ChatLIstAdapter.ViewHolder>() {
 
 
@@ -30,16 +30,15 @@ class ChatLIstAdapter(private val context: Context, private val userList: ArrayL
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val user = userList[position]
-        holder.txtUserName.text = user.userName
-        Glide.with(context).load(user.profileImage).into(holder.imgUser)
+        holder.txtUserName.text = user.name
+        Glide.with(context).load(user.image).into(holder.imgUser)
 
         holder.layoutUser.setOnClickListener {
-            var bundle=Bundle()
-            bundle.putString("userId",user.userId)
-            bundle.putString("userName",user.userName)
-            bundle.putString("photo",user.profileImage)
-
-            onClickListner.getdataToMessage(bundle,position)
+            var intent= Intent(context,ChatActivity::class.java)
+            intent.putExtra("userId",user.uid)
+            intent.putExtra("userName",user.name)
+            intent.putExtra("photo",user.image)
+            context.startActivity(intent)
         }
     }
 

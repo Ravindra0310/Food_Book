@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
 MERGED from [androidx.databinding:databinding-adapters:4.2.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\b2527ecf160a90efde2e279db53776c1\databinding-adapters-4.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:databinding-runtime:4.2.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\befa846096f7f987c2b405654ed0efb1\databinding-runtime-4.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\1547a1d804c4102a94924c0582a6c247\jetified-viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
@@ -100,25 +100,39 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Ravi\.gr
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5cf9fb761eeb406bb439713285b056cd\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\04ada71f45669ab5f90c1beb0934711f\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\97c4944c6cd390e24b3ebad565420821\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
-INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:3:5-32
 		INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml
 		INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:1-27:12
 		INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\b2d74e632080246fa9c5cce7364208b1\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\b2d74e632080246fa9c5cce7364208b1\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\fcb3697c460884a398b9906fbd65701c\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\fcb3697c460884a398b9906fbd65701c\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\f671f2dc325dd646f8cbd1fff3301a37\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\f671f2dc325dd646f8cbd1fff3301a37\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:7:5-25:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\d0d3eedcedf6ac53185a01d26e6dd61a\jetified-firebase-database-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\d0d3eedcedf6ac53185a01d26e6dd61a\jetified-firebase-database-ktx-20.0.0\AndroidManifest.xml:11:5-19:19
 MERGED from [com.google.android.material:material:1.1.0-alpha09] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\981e1738bfc51069c8d2e428b70c1861\material-1.1.0-alpha09\AndroidManifest.xml:22:5-20
@@ -184,43 +198,47 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Ravi\.gradle\caches\tr
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\f1e4f934460d9e3753de0241c8c56dfa\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:11:9-46
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:13:9-46
+activity#com.ravi.foodbook.ui.chat.ChatActivity
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:14:9-67
+	android:name
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:14:19-55
 activity#com.ravi.foodbook.SignUpActivity
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:12:9-51
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:15:9-52
 	android:name
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:12:19-49
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:15:19-49
 activity#com.ravi.foodbook.MainActivity
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:13:9-50
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:16:9-50
 	android:name
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:16:19-47
 activity#com.ravi.foodbook.LoginActivity
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:15:19-48
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:17:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:21:27-74
 activity#com.ravi.foodbook.BottomNavActivity
-ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:22:9-54
+ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:24:9-55
 	android:name
-		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:22:19-52
+		ADDED from D:\projects\New folder\app\src\main\AndroidManifest.xml:24:19-52
 uses-sdk
 INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\projects\New folder\app\src\main\AndroidManifest.xml
@@ -485,18 +503,6 @@ ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\
 		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\b2d74e632080246fa9c5cce7364208b1\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.firebase:firebase-installations:17.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\b2d74e632080246fa9c5cce7364208b1\jetified-firebase-installations-17.0.0\AndroidManifest.xml:11:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\fcb3697c460884a398b9906fbd65701c\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\fcb3697c460884a398b9906fbd65701c\jetified-play-services-cloud-messaging-16.0.0\AndroidManifest.xml:8:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\f671f2dc325dd646f8cbd1fff3301a37\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\f671f2dc325dd646f8cbd1fff3301a37\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-messaging:22.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5d28033095683f8bd68c782ba4c1ca1e\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:22:5-79
