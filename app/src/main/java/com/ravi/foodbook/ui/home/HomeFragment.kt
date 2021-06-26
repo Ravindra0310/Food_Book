@@ -79,11 +79,12 @@ class HomeFragment : Fragment(), OnFoodItemClickListener {
 
                         foodModelList?.add(foodList!!)
                     }
-                    simpleProgressBar.visibility = View.GONE
+
+                    simpleProgressBar?.visibility = View.GONE
 
                     val layoutAnimationController: LayoutAnimationController =
                         AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation)
-                    recycler1.layoutAnimation = layoutAnimationController
+                    recycler1?.layoutAnimation = layoutAnimationController
 
                     foodModelAdapter.notifyDataSetChanged()
                 }

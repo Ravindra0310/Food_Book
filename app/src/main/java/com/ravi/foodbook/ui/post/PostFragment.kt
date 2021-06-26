@@ -8,17 +8,23 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.AnimationUtils
+import android.view.animation.LayoutAnimationController
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
+import com.bumptech.glide.Glide
+import com.google.firebase.auth.FirebaseAuth
 import com.ravi.foodbook.MainActivity
 import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentPostBinding
 import com.ravi.foodbook.model.data.PostData
 import kotlinx.android.synthetic.main.activity_bottom_nav.*
+import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_post.*
+import kotlinx.android.synthetic.main.fragment_profile.*
 
 
 class PostFragment : Fragment() {
@@ -59,14 +65,12 @@ class PostFragment : Fragment() {
 
         navController = findNavController()
 
-        //uid = postViewModel.getUserId()
-        //userName = postViewModel.getUserName()
-       // userPic = postViewModel.getUserPic()
-
-        //Glide.with(this).load(userPic).into(profilePic)
-
-        uid = "3"
-        userName = "RandomMan1"
+//        uid = postViewModel.getUserId()
+//        userName = postViewModel.getUserName()
+//        userPic = postViewModel.getUserPic()
+//
+//        context?.let { Glide.with(it).load(userPic).into(postProfilePic) }
+//        postProfileName.text = userName
 
         return root
     }
@@ -74,26 +78,48 @@ class PostFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        val auth = FirebaseAuth.getInstance()
+
+        val user = auth!!.currentUser
+        user?.let {
+            val profileUrl = it.photoUrl
+            userName = it.displayName!!
+            postProfileName.text = "$userName,"
+            Glide.with(postProfilePic1.context!!).load(profileUrl).into(postProfilePic1)
+
+        }
+
         btnTakePicture.setOnClickListener{
                         navController.navigate(
                     R.id.action_navigation_post_to_cameraFragment
                 )
         }
 
-        userNameAndPic.setOnClickListener {
+        postUserNameAndPic.setOnClickListener {
             navController.navigate(R.id.action_navigation_post_to_navigation_profile)
+        }
+
+        btnSell.setOnClickListener {
+            val layoutAnimationController: LayoutAnimationController =
+                AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation)
+            priceInputLayout?.layoutAnimation = layoutAnimationController
+            priceInputLayout.visibility = View.VISIBLE
+        }
+
+        btnDonate.setOnClickListener {
+            priceInputLayout.visibility = View.GONE
         }
 
         floating_action_button_post.setOnClickListener {
 
-            content = etDescription.editText.toString()
-            foodType = etFoodType.editText.toString()
+            content = etDescription.text.toString()
+            foodType = "dummy"
             location = StringBuffer(etLocation1.editText.toString()
                     + etLocation2.editText.toString()
                     + etLocation3.editText.toString()).toString()
-            freshness = freshnessSpinner.text.toString()
+            freshness = "freshnessSpinner.text.toString()"
             time = "now"
-            price = etPrice.editText.toString()
+            price = "etPrice.editText.toString()"
 
             val postData = PostData(
                 userName,

@@ -56,6 +56,10 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_file_upload_24.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_file_upload_24.xml"
+    },
+    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bottom_nav.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_bottom_nav.xml"
     },
@@ -228,6 +232,10 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_round_corner_outline.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\rectangle_round_corner_outline.xml"
+    },
+    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login2.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_login2.xml"
     },
@@ -242,6 +250,10 @@
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_close_24.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_round_corner_theme.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\rectangle_round_corner_theme.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",

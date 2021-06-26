@@ -2114,6 +2114,7 @@ drawable ic_baseline_camera_24
 drawable ic_baseline_chat_24
 drawable ic_baseline_check_24
 drawable ic_baseline_close_24
+drawable ic_baseline_file_upload_24
 drawable ic_baseline_flip_camera_android_24
 drawable ic_baseline_insert_photo_24
 drawable ic_baseline_notifications_24
@@ -2168,6 +2169,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable profile_image
 drawable progress_bar_theme
+drawable rectangle_round_corner_outline
+drawable rectangle_round_corner_theme
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2326,7 +2329,6 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id etDescription
-id etFoodType
 id etLocation1
 id etLocation2
 id etLocation3
@@ -2352,7 +2354,6 @@ id fixed
 id floating_action_button_post
 id forever
 id fragment_container_view_tag
-id freshnessSpinner
 id front
 id ghost_view
 id ghost_view_holder
@@ -2461,8 +2462,10 @@ id peekHeight
 id percent
 id performance
 id pin
-id profileName
-id profilePic
+id postProfileName
+id postProfilePic1
+id postUserNameAndPic
+id priceInputLayout
 id progress_circular
 id progress_horizontal
 id r1
@@ -2573,6 +2576,9 @@ id tvUserDescription
 id tvUserLocation
 id tvUserName
 id tvor2
+id typeCold
+id typeFresh
+id typeWaste
 id unchecked
 id uniform
 id unlabeled
@@ -2580,7 +2586,6 @@ id up
 id useLogo
 id userImage
 id userName
-id userNameAndPic
 id userRecyclerView
 id video
 id viewLine
