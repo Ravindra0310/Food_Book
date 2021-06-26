@@ -3,32 +3,26 @@ package com.ravi.foodbook.ui.post
 
 import android.app.AlertDialog
 import android.content.DialogInterface
-import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
-import com.bumptech.glide.Glide
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.firebase.FirebaseApp
+import com.example.jobedin.repository.LinkedInRepository
 import com.google.firebase.auth.FirebaseAuth
-import com.ravi.foodbook.MainActivity
+import com.ravi.foodbook.BottomNavActivity
 import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentPostBinding
 import com.ravi.foodbook.model.data.PostData
-import com.ravi.foodbook.ui.home.HomeViewModel
-import kotlinx.android.synthetic.main.fragment_camera.*
 import kotlinx.android.synthetic.main.fragment_post.*
 
 
 class PostFragment : Fragment() {
-
+    lateinit var repository: LinkedInRepository
     private lateinit var postViewModel: PostViewModel
     private var _binding: FragmentPostBinding? = null
 
@@ -56,7 +50,7 @@ class PostFragment : Fragment() {
     ): View? {
         postViewModel =
             ViewModelProvider(this).get(PostViewModel::class.java)
-
+            repository= LinkedInRepository()
         _binding = FragmentPostBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
@@ -76,6 +70,9 @@ class PostFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        val userImage = FirebaseAuth.getInstance().currentUser?.photoUrl.toString()
+        val userName = FirebaseAuth.getInstance().currentUser?.displayName ?: "nan"
+        val userUid = FirebaseAuth.getInstance().currentUser?.uid ?: "nan"
 
         btnTakePicture.setOnClickListener{
                         navController.navigate(
@@ -86,6 +83,7 @@ class PostFragment : Fragment() {
         userNameAndPic.setOnClickListener {
             navController.navigate(R.id.action_navigation_post_to_navigation_profile)
         }
+
 
         floating_action_button_post.setOnClickListener {
 
@@ -98,18 +96,54 @@ class PostFragment : Fragment() {
             time = "now"
             price = etPrice.editText.toString()
 
-            val postData = PostData(
-                userName,
-                "null",
-                content,
-                "null",
-                foodType,
-                location,
-                freshness,
-                time,
-                price
-            )
-            postViewModel.addPost(postData)
+            pictureUri= BottomNavActivity.tempFileExt!!
+
+                val type = BottomNavActivity.tempFileExt;
+                if (type == "jpg" || type == "bmp" || type == "jpeg" || type == "png") {
+                    repository.uploadMedia(
+                        BottomNavActivity.tempPicPath, type, PostData(
+                            content = content,
+                            foodType = foodType,
+                            location = location,
+                            freshness = freshness,
+                            price = price,
+                            time = "Just now",
+                            userName = userName,
+                            foodPic = pictureUri,
+                            userPic = userImage,
+                            uid = userUid
+                        )
+                    )
+                }else{
+                    repository.addPost(
+                        PostData(
+                            content = content,
+                            foodType = foodType,
+                            location = location,
+                            freshness = freshness,
+                            price = price,
+                            time = "Just now",
+                            userName = userName,
+                            foodPic = "",
+                            userPic = userImage,
+                            uid = userUid
+                        )
+                    )
+                }
+//            val postData = PostData(
+//                userName,
+//                "null",
+//                content,
+//                "null",
+//                foodType,
+//                location,
+//                freshness,
+//                time,
+//                price
+//            )
+//            postViewModel.addPost(postData)
+
+
 
             val builder = AlertDialog.Builder(requireContext())
             builder.setTitle("Thank you for posting")
@@ -130,5 +164,13 @@ class PostFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+    }
+
+    override fun onResume() {
+        super.onResume()
+        if(BottomNavActivity.tempPicPath!=null){
+            imageviewPost.visibility=View.VISIBLE
+            imageviewPost.setImageURI(BottomNavActivity.tempPicPath)
+        }
     }
 }

@@ -2222,7 +2222,8 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
-id action_chatMessage_to_navigation_chat
+id action_cameraFragment_to_addPostFragment
+id action_cameraFragment_to_navigation_post
 id action_container
 id action_context_bar
 id action_divider
@@ -2369,6 +2370,7 @@ id icon_only
 id ifRoom
 id image
 id imageView1
+id imageviewPost
 id imgBack
 id imgContainer
 id imgProfile

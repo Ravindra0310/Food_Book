@@ -2,11 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ravi.foodbook">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.Camera.any" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodBook">
-        <activity android:name=".ui.chat.ChatActivity"></activity>
+        <activity android:name=".ui.camera.CameraActivity"></activity>
+        <activity android:name=".ui.chat.ChatActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".LoginActivity">

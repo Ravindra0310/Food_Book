@@ -14,7 +14,17 @@
         android:id="@+id/navigation_post"
         android:name="com.ravi.foodbook.ui.post.PostFragment"
         android:label="fragment_post"
-        tools:layout="@layout/fragment_post" />
+        tools:layout="@layout/fragment_post" >
+        <action
+            android:id="@+id/action_navigation_post_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_post_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+        <action
+            android:id="@+id/action_navigation_post_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.ravi.foodbook.ui.profile.ProfileFragment"
@@ -36,15 +46,19 @@
         android:label="fragment_chat_message"
         tools:layout="@layout/fragment_chat_message" >
         <action
-            android:id="@+id/action_chatMessage_to_navigation_chat"
-            app:destination="@id/navigation_chat" />
+            android:id="@+id/action_cameraFragment_to_addPostFragment"
+            app:destination="@id/chatMessage" />
     </fragment>
 
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/cameraFragment"
         android:name="com.ravi.foodbook.ui.camera.CameraFragment"
-        android:label="CameraFragment" />
+        android:label="CameraFragment" >
+        <action
+            android:id="@+id/action_cameraFragment_to_navigation_post"
+            app:destination="@id/navigation_post" />
+    </fragment>
 
 
 </navigation>

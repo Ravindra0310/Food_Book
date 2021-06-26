@@ -9,5 +9,6 @@ data class PostData(
     val location : String?,
     val freshness : String?,
     val time : String?,
-    val price: String?
+    val price: String?,
+    val uid:String?
 )
