@@ -1,8 +1,40 @@
+com/ravi/foodbook/databinding/ItemRightBinding.java
+ com.ravi.foodbook.databinding.ItemRightBinding
+com/ravi/foodbook/BR.java
+ com.ravi.foodbook.BR
+com/ravi/foodbook/databinding/FragmentChatBinding.java
+ com.ravi.foodbook.databinding.FragmentChatBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/ravi/foodbook/DataBinderMapperImpl.java
+ com.ravi.foodbook.DataBinderMapperImpl
+ com.ravi.foodbook.DataBinderMapperImpl$InnerBrLookup
+ com.ravi.foodbook.DataBinderMapperImpl$InnerLayoutIdLookup
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/ravi/foodbook/databinding/FragmentPostBinding.java
+ com.ravi.foodbook.databinding.FragmentPostBinding
+com/ravi/foodbook/DataBindingTriggerClass.java
+ com.ravi.foodbook.DataBindingTriggerClass
+com/ravi/foodbook/databinding/ActivityBottomNavBinding.java
+ com.ravi.foodbook.databinding.ActivityBottomNavBinding
+com/ravi/foodbook/databinding/FragmentHomeBinding.java
+ com.ravi.foodbook.databinding.FragmentHomeBinding
+com/ravi/foodbook/databinding/ItemLeftBinding.java
+ com.ravi.foodbook.databinding.ItemLeftBinding
 com/ravi/foodbook/databinding/ActivitySignUpBinding.java
  com.ravi.foodbook.databinding.ActivitySignUpBinding
+com/ravi/foodbook/databinding/FragmentChatMessageBinding.java
+ com.ravi.foodbook.databinding.FragmentChatMessageBinding
 com/ravi/foodbook/databinding/ActivityMainBinding.java
  com.ravi.foodbook.databinding.ActivityMainBinding
 com/ravi/foodbook/BuildConfig.java
  com.ravi.foodbook.BuildConfig
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
 com/ravi/foodbook/databinding/ActivityLogin2Binding.java
  com.ravi.foodbook.databinding.ActivityLogin2Binding
+com/ravi/foodbook/databinding/FragmentProfileBinding.java
+ com.ravi.foodbook.databinding.FragmentProfileBinding
+com/ravi/foodbook/databinding/LayoutchatListIteamBinding.java
+ com.ravi.foodbook.databinding.LayoutchatListIteamBinding

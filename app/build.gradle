@@ -4,6 +4,7 @@ plugins {
     id 'com.google.gms.google-services'
     id 'kotlin-kapt'
     id 'kotlin-android-extensions'
+
 }
 
 android {
@@ -16,10 +17,13 @@ android {
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-
+        multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    buildFeatures {
+        dataBinding true
+        viewBinding true
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -44,6 +48,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:22.0.0'
     def jetpack_version = "2.1.0"
     def arch_version = '2.2.0-alpha01'
     def retrofit_version = "2.6.1"
@@ -101,5 +106,6 @@ dependencies {
 
     // Also declare the dependency for the Google Play services library and specify its version
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
-
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
 }

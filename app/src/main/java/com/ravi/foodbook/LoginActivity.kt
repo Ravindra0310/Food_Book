@@ -8,7 +8,6 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
@@ -64,7 +63,7 @@ class LoginActivity : AppCompatActivity() {
                     // Sign in success, update UI with the signed-in user's information
 
                     val user = auth.currentUser
-                    startActivity(Intent(this,MainActivity::class.java) .setFlags (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
+                    startActivity(Intent(this,BottomNavActivity::class.java) .setFlags (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
                     Toast.makeText(this,"Successful login", Toast.LENGTH_SHORT).show()
                     finish()
                 } else {
@@ -123,7 +122,7 @@ class LoginActivity : AppCompatActivity() {
 
 
                     Toast.makeText(this, ""+ user!!.email, Toast.LENGTH_SHORT).show()
-                    startActivity(Intent(this,MainActivity::class.java) .setFlags (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
+                    startActivity(Intent(this,BottomNavActivity::class.java) .setFlags (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
                     finish()
                 } else {
                     // If sign in fails, display a message to the user.
@@ -137,7 +136,7 @@ class LoginActivity : AppCompatActivity() {
         super.onStart()
         val currentUser: FirebaseUser? = auth.currentUser
         if(currentUser!=null){
-            startActivity(Intent(this,MainActivity::class.java) .setFlags (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
+            startActivity(Intent(this,BottomNavActivity::class.java) .setFlags (Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
         }
     }
 

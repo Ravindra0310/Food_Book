@@ -1,12 +1,12 @@
 package com.ravi.foodbook
 
 import android.os.Bundle
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.ravi.foodbook.databinding.ActivityBottomNavBinding
 
 class BottomNavActivity : AppCompatActivity() {
@@ -20,7 +20,7 @@ class BottomNavActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val navView: BottomNavigationView = binding.navView
-
+        setSupportActionBar(findViewById(R.id.my_toolbar))
         val navController = findNavController(R.id.nav_host_fragment_activity_bottom_nav)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
