@@ -51,52 +51,52 @@
 27    </queries>
 28
 29    <application
-29-->D:\projects\New folder\app\src\main\AndroidManifest.xml:16:5-35:19
+29-->D:\projects\New folder\app\src\main\AndroidManifest.xml:16:5-36:19
 30        android:allowBackup="true"
 30-->D:\projects\New folder\app\src\main\AndroidManifest.xml:17:9-35
 31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 31-->[androidx.core:core:1.3.2] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\bb6881a6be71b31fb6d2ffc52a86af7d\core-1.3.2\AndroidManifest.xml:24:18-86
 32        android:debuggable="true"
-33        android:icon="@mipmap/ic_launcher"
-33-->D:\projects\New folder\app\src\main\AndroidManifest.xml:18:9-43
+33        android:icon="@mipmap/ic_potluck"
+33-->D:\projects\New folder\app\src\main\AndroidManifest.xml:18:9-42
 34        android:label="@string/app_name"
 34-->D:\projects\New folder\app\src\main\AndroidManifest.xml:19:9-41
-35        android:roundIcon="@mipmap/ic_launcher_round"
-35-->D:\projects\New folder\app\src\main\AndroidManifest.xml:20:9-54
+35        android:roundIcon="@mipmap/ic_potluck"
+35-->D:\projects\New folder\app\src\main\AndroidManifest.xml:20:9-47
 36        android:supportsRtl="true"
 36-->D:\projects\New folder\app\src\main\AndroidManifest.xml:21:9-35
 37        android:testOnly="true"
 38        android:theme="@style/Theme.FoodBook" >
 38-->D:\projects\New folder\app\src\main\AndroidManifest.xml:22:9-46
-39        <activity android:name="com.ravi.foodbook.ui.camera.CameraActivity" />
-39-->D:\projects\New folder\app\src\main\AndroidManifest.xml:23:9-71
-39-->D:\projects\New folder\app\src\main\AndroidManifest.xml:23:19-59
-40        <activity android:name="com.ravi.foodbook.ui.chat.ChatActivity" />
-40-->D:\projects\New folder\app\src\main\AndroidManifest.xml:24:9-58
-40-->D:\projects\New folder\app\src\main\AndroidManifest.xml:24:19-55
-41        <activity android:name="com.ravi.foodbook.SignUpActivity" />
-41-->D:\projects\New folder\app\src\main\AndroidManifest.xml:25:9-52
-41-->D:\projects\New folder\app\src\main\AndroidManifest.xml:25:19-49
-42        <activity android:name="com.ravi.foodbook.MainActivity" />
-42-->D:\projects\New folder\app\src\main\AndroidManifest.xml:26:9-50
-42-->D:\projects\New folder\app\src\main\AndroidManifest.xml:26:19-47
-43        <activity android:name="com.ravi.foodbook.LoginActivity" >
-43-->D:\projects\New folder\app\src\main\AndroidManifest.xml:27:9-33:20
-43-->D:\projects\New folder\app\src\main\AndroidManifest.xml:27:19-48
-44            <intent-filter>
-44-->D:\projects\New folder\app\src\main\AndroidManifest.xml:28:13-32:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->D:\projects\New folder\app\src\main\AndroidManifest.xml:29:17-69
-45-->D:\projects\New folder\app\src\main\AndroidManifest.xml:29:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->D:\projects\New folder\app\src\main\AndroidManifest.xml:31:17-77
-47-->D:\projects\New folder\app\src\main\AndroidManifest.xml:31:27-74
-48            </intent-filter>
-49        </activity>
+39        <activity android:name="com.ravi.foodbook.SplashScreen" >
+39-->D:\projects\New folder\app\src\main\AndroidManifest.xml:23:9-29:20
+39-->D:\projects\New folder\app\src\main\AndroidManifest.xml:23:19-47
+40            <intent-filter>
+40-->D:\projects\New folder\app\src\main\AndroidManifest.xml:24:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->D:\projects\New folder\app\src\main\AndroidManifest.xml:25:17-69
+41-->D:\projects\New folder\app\src\main\AndroidManifest.xml:25:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->D:\projects\New folder\app\src\main\AndroidManifest.xml:27:17-77
+43-->D:\projects\New folder\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.ravi.foodbook.ui.chat.ChatActivity" />
+46-->D:\projects\New folder\app\src\main\AndroidManifest.xml:31:9-58
+46-->D:\projects\New folder\app\src\main\AndroidManifest.xml:31:19-55
+47        <activity android:name="com.ravi.foodbook.SignUpActivity" />
+47-->D:\projects\New folder\app\src\main\AndroidManifest.xml:32:9-52
+47-->D:\projects\New folder\app\src\main\AndroidManifest.xml:32:19-49
+48        <activity android:name="com.ravi.foodbook.MainActivity" />
+48-->D:\projects\New folder\app\src\main\AndroidManifest.xml:33:9-50
+48-->D:\projects\New folder\app\src\main\AndroidManifest.xml:33:19-47
+49        <activity android:name="com.ravi.foodbook.LoginActivity" />
+49-->D:\projects\New folder\app\src\main\AndroidManifest.xml:34:9-50
+49-->D:\projects\New folder\app\src\main\AndroidManifest.xml:34:19-48
 50        <activity android:name="com.ravi.foodbook.BottomNavActivity" />
-50-->D:\projects\New folder\app\src\main\AndroidManifest.xml:34:9-55
-50-->D:\projects\New folder\app\src\main\AndroidManifest.xml:34:19-52
+50-->D:\projects\New folder\app\src\main\AndroidManifest.xml:35:9-55
+50-->D:\projects\New folder\app\src\main\AndroidManifest.xml:35:19-52
 51
 52        <service
 52-->[com.google.firebase:firebase-database-ktx:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\d0d3eedcedf6ac53185a01d26e6dd61a\jetified-firebase-database-ktx-20.0.0\AndroidManifest.xml:12:9-18:19
@@ -119,35 +119,35 @@
 61                android:value="com.google.firebase.components.ComponentRegistrar" />
 61-->[com.google.firebase:firebase-storage-ktx:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\968263e79938728062600c4f96f2b4bd\jetified-firebase-storage-ktx-20.0.0\AndroidManifest.xml:17:17-82
 62            <meta-data
-62-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
-63                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-63-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+62-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\3be0f55af953eef9731b9fb8057e8145\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+63                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+63-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\3be0f55af953eef9731b9fb8057e8145\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
 64                android:value="com.google.firebase.components.ComponentRegistrar" />
-64-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+64-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\3be0f55af953eef9731b9fb8057e8145\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
 65            <meta-data
-65-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:11:13-13:85
-66                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
-66-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
+65-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+66                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+66-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
 67                android:value="com.google.firebase.components.ComponentRegistrar" />
-67-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
+67-->[com.google.firebase:firebase-database:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\eee3781226bd64c9cf5f7fd50f6157eb\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
 68            <meta-data
-68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-69                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-69-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+68-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:11:13-13:85
+69                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+69-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:12:17-116
 70                android:value="com.google.firebase.components.ComponentRegistrar" />
-70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+70-->[com.google.firebase:firebase-auth-ktx:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5c00091a1b727f8da997b39041206d71\jetified-firebase-auth-ktx-21.0.1\AndroidManifest.xml:13:17-82
 71            <meta-data
-71-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5d28033095683f8bd68c782ba4c1ca1e\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
-72                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-72-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5d28033095683f8bd68c782ba4c1ca1e\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+72                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+72-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 73                android:value="com.google.firebase.components.ComponentRegistrar" />
-73-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5d28033095683f8bd68c782ba4c1ca1e\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\8e9657f1a8e15e4f32cf0f7aa9a8dbf4\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 74            <meta-data
-74-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\3be0f55af953eef9731b9fb8057e8145\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
-75                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-75-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\3be0f55af953eef9731b9fb8057e8145\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+74-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5d28033095683f8bd68c782ba4c1ca1e\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+75                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+75-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5d28033095683f8bd68c782ba4c1ca1e\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
 76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\3be0f55af953eef9731b9fb8057e8145\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+76-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\5d28033095683f8bd68c782ba4c1ca1e\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
 77            <meta-data
 77-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\Ravi\.gradle\caches\transforms-2\files-2.1\18ee0b6aa9363942bda9b6a84128fa8d\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
 78                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"

@@ -36,9 +36,11 @@ com/ravi/foodbook/databinding/ActivityChatBinding.java
  com.ravi.foodbook.databinding.ActivityChatBinding
 com/ravi/foodbook/databinding/ActivityMainBinding.java
  com.ravi.foodbook.databinding.ActivityMainBinding
+com/ravi/foodbook/databinding/LayoutchatListIteamBinding.java
+ com.ravi.foodbook.databinding.LayoutchatListIteamBinding
 com/ravi/foodbook/databinding/ActivityLogin2Binding.java
  com.ravi.foodbook.databinding.ActivityLogin2Binding
 com/ravi/foodbook/databinding/FragmentProfileBinding.java
  com.ravi.foodbook.databinding.FragmentProfileBinding
-com/ravi/foodbook/databinding/LayoutchatListIteamBinding.java
- com.ravi.foodbook.databinding.LayoutchatListIteamBinding
+com/ravi/foodbook/databinding/ActivitySplashScreenBinding.java
+ com.ravi.foodbook.databinding.ActivitySplashScreenBinding

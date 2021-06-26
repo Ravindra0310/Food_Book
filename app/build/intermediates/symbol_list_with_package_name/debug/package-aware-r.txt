@@ -2134,6 +2134,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_notifications_black_24dp
 drawable ic_policy
+drawable ic_potluck_background
 drawable ic_rate_us
 drawable ic_search
 drawable ic_send
@@ -2163,6 +2164,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable potlucklogo
 drawable profile_image
 drawable test_custom_background
 drawable tooltip_frame_dark
@@ -2369,6 +2371,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id imageView1
 id imageviewPost
 id imgBack
@@ -2654,6 +2657,7 @@ layout activity_chat
 layout activity_login2
 layout activity_main
 layout activity_sign_up
+layout activity_splash_screen
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -2744,6 +2748,9 @@ layout text_view_without_line_height
 menu bottom_nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap ic_potluck
+mipmap ic_potluck_foreground
+mipmap ic_potluck_round
 navigation mobile_navigation
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

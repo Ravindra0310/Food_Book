@@ -2133,6 +2133,7 @@ int drawable ic_mtrl_chip_checked_circle 0x7f0700a3
 int drawable ic_mtrl_chip_close_circle 0x7f0700a4
 int drawable ic_notifications_black_24dp 0x7f0700a5
 int drawable ic_policy 0x7f0700a6
+int drawable ic_potluck_background 0x7f0700c9
 int drawable ic_rate_us 0x7f0700a7
 int drawable ic_search 0x7f0700a8
 int drawable ic_send 0x7f0700a9
@@ -2162,6 +2163,7 @@ int drawable notification_template_icon_bg 0x7f0700c0
 int drawable notification_template_icon_low_bg 0x7f0700c1
 int drawable notification_tile_bg 0x7f0700c2
 int drawable notify_panel_notification_icon_bg 0x7f0700c3
+int drawable potlucklogo 0x7f0700ca
 int drawable profile_image 0x7f0700c4
 int drawable test_custom_background 0x7f0700c5
 int drawable tooltip_frame_dark 0x7f0700c6
@@ -2368,6 +2370,7 @@ int id icon_group 0x7f0900c4
 int id icon_only 0x7f0900c5
 int id ifRoom 0x7f0900c6
 int id image 0x7f0900c7
+int id imageView 0x7f0901a2
 int id imageView1 0x7f0900c8
 int id imageviewPost 0x7f0901a1
 int id imgBack 0x7f0900c9
@@ -2653,6 +2656,7 @@ int layout activity_chat 0x7f0c001d
 int layout activity_login2 0x7f0c001e
 int layout activity_main 0x7f0c001f
 int layout activity_sign_up 0x7f0c0020
+int layout activity_splash_screen 0x7f0c0078
 int layout browser_actions_context_menu_page 0x7f0c0021
 int layout browser_actions_context_menu_row 0x7f0c0022
 int layout custom_dialog 0x7f0c0023
@@ -2743,6 +2747,9 @@ int layout text_view_without_line_height 0x7f0c0077
 int menu bottom_nav_menu 0x7f0d0000
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
+int mipmap ic_potluck 0x7f0e0002
+int mipmap ic_potluck_foreground 0x7f0e0003
+int mipmap ic_potluck_round 0x7f0e0004
 int navigation mobile_navigation 0x7f0f0000
 int plurals mtrl_badge_content_description 0x7f100000
 int string abc_action_bar_home_description 0x7f110000

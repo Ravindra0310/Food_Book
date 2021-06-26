@@ -12,8 +12,16 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+    },
+    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_potluck_foreground.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-mdpi\\ic_potluck_foreground.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_insert_photo_24.xml.flat",
@@ -36,6 +44,10 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_potluck_round.xml.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_potluck_round.xml"
+    },
+    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_left.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\item_left.xml"
     },
@@ -56,12 +68,12 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\fragment_chat.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_item_right_side_background.xml.flat",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable-v24\\item_right_side_background.xml"
-    },
-    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_item_right_side_background.xml.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable-v24\\item_right_side_background.xml"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
@@ -72,16 +84,28 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\color_1.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_add_folders.xml.flat",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\item_add_folders.xml"
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_potlucklogo.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\potlucklogo.png"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whiterounf.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\whiterounf.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_add_folders.xml.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\item_add_folders.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_potluck.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_potluck.png"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_potluck.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-hdpi\\ic_potluck.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -90,6 +114,10 @@
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_potluck_round.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_potluck_round.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -102,6 +130,10 @@
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_check_24.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_baseline_check_24.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_potluck_foreground.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_potluck_foreground.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_color_4.xml.flat",
@@ -132,8 +164,24 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_baseline_chat_24.xml"
     },
     {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_potluck_round.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-mdpi\\ic_potluck_round.png"
+    },
+    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_close_24.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_potluck_background.xml.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_potluck_background.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_potluck_foreground.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-hdpi\\ic_potluck_foreground.png"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_potluck_foreground.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_potluck_foreground.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
@@ -160,6 +208,10 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable-v24\\edittext_background.xml"
     },
     {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_potluck.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-mdpi\\ic_potluck.png"
+    },
+    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button_background.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable-v24\\button_background.xml"
     },
@@ -170,6 +222,10 @@
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_potluck_round.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_potluck_round.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_nav_menu.xml.flat",
@@ -184,6 +240,14 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_potluck_round.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-hdpi\\ic_potluck_round.png"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_potluck.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_potluck.png"
+    },
+    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_policy.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_policy.xml"
     },
@@ -196,12 +260,24 @@
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_baseline_camera_24.xml"
     },
     {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_potluck.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xhdpi\\ic_potluck.png"
+    },
+    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_profile_image.png.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable-v24\\profile_image.png"
     },
     {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_potluck_foreground.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_potluck_foreground.png"
+    },
+    {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_about.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_potluck.xml.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_potluck.xml"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_camera.xml.flat",
@@ -214,6 +290,10 @@
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_notifications_black_24dp.xml.flat",
         "source": "D:\\projects\\New folder\\app\\src\\main\\res\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_potluck_round.png.flat",
+        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_potluck_round.png"
     },
     {
         "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
