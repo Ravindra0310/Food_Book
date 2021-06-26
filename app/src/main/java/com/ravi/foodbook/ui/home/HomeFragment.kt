@@ -4,14 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.*
 import com.ravi.foodbook.OnFoodItemClickListener
-import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentHomeBinding
 import com.ravi.foodbook.model.FoodModel
 import com.ravi.foodbook.model.FoodModelAdapter
@@ -88,6 +85,7 @@ class HomeFragment : Fragment(), OnFoodItemClickListener {
     }
 
     override fun onItemClick(foodModel: FoodModel) {
+
         TODO("Not yet implemented")
     }
 }
