@@ -14,7 +14,17 @@
         android:id="@+id/navigation_post"
         android:name="com.ravi.foodbook.ui.post.PostFragment"
         android:label="fragment_post"
-        tools:layout="@layout/fragment_post" />
+        tools:layout="@layout/fragment_post" >
+        <action
+            android:id="@+id/action_navigation_post_to_cameraFragment"
+            app:destination="@id/cameraFragment" />
+        <action
+            android:id="@+id/action_navigation_post_to_navigation_profile"
+            app:destination="@id/navigation_profile" />
+        <action
+            android:id="@+id/action_navigation_post_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.ravi.foodbook.ui.profile.ProfileFragment"
@@ -24,6 +34,7 @@
         android:id="@+id/navigation_chat"
         android:name="com.ravi.foodbook.ui.chat.ChatFragment"
         android:label="fragment_chat"
+
         tools:layout="@layout/fragment_chat" >
         <action
             android:id="@+id/action_navigation_chat_to_chatMessage"
@@ -38,5 +49,12 @@
             android:id="@+id/action_chatMessage_to_navigation_chat"
             app:destination="@id/navigation_chat" />
     </fragment>
+
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="com.ravi.foodbook.ui.camera.CameraFragment"
+        android:label="CameraFragment" />
+
 
 </navigation>
