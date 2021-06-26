@@ -67,6 +67,7 @@ class HomeFragment : Fragment(), OnFoodItemClickListener {
                 if (snapshot.exists()) {
                     for (i in snapshot.children) {
                         val foodList = i.getValue(FoodModel::class.java)
+
                         foodModelList?.add(foodList!!)
                     }
                     foodModelAdapter.notifyDataSetChanged()
