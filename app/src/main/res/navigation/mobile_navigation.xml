@@ -34,10 +34,27 @@
         android:id="@+id/navigation_chat"
         android:name="com.ravi.foodbook.ui.chat.ChatFragment"
         android:label="fragment_chat"
+
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_navigation_chat_to_chatMessage"
+            app:destination="@id/chatMessage" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatMessage"
+        android:name="com.ravi.foodbook.chat.ChatMessage"
+        android:label="fragment_chat_message"
+        tools:layout="@layout/fragment_chat_message" >
+        <action
+            android:id="@+id/action_chatMessage_to_navigation_chat"
+            app:destination="@id/navigation_chat" />
+    </fragment>
+
         tools:layout="@layout/fragment_chat" />
     <fragment
         android:id="@+id/cameraFragment"
         android:name="com.ravi.foodbook.ui.camera.CameraFragment"
         android:label="CameraFragment" />
+
 
 </navigation>
