@@ -111,6 +111,16 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth-ktx'
 
     implementation 'com.google.firebase:firebase-auth:21.0.1'
+
+    implementation 'com.firebaseui:firebase-ui-database:7.2.0'
+    //dimens
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //circular images
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+
     implementation 'com.google.firebase:firebase-database:20.0.0'
 
     //camera
@@ -125,4 +135,5 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:19.0.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
     implementation 'androidx.multidex:multidex:2.0.1'
+
 }

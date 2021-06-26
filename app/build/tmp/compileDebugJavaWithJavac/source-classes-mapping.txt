@@ -1,3 +1,5 @@
+com/ravi/foodbook/databinding/ItemAddFoldersBinding.java
+ com.ravi.foodbook.databinding.ItemAddFoldersBinding
 com/ravi/foodbook/databinding/ItemRightBinding.java
  com.ravi.foodbook.databinding.ItemRightBinding
 com/ravi/foodbook/BR.java
@@ -14,6 +16,8 @@ androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
 com/ravi/foodbook/databinding/FragmentPostBinding.java
  com.ravi.foodbook.databinding.FragmentPostBinding
+com/ravi/foodbook/databinding/FragmentCameraBinding.java
+ com.ravi.foodbook.databinding.FragmentCameraBinding
 com/ravi/foodbook/DataBindingTriggerClass.java
  com.ravi.foodbook.DataBindingTriggerClass
 com/ravi/foodbook/databinding/ActivityBottomNavBinding.java
