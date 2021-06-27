@@ -1,62 +1,62 @@
 [
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_add_folders.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\item_add_folders.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_post.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\fragment_post.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\fragment_chat.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bottom_nav.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_bottom_nav.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_left.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\item_left.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_left.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\item_left.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\fragment_camera.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\fragment_profile.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_post.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\fragment_post.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bottom_nav.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_bottom_nav.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layoutchat_list_iteam.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\layoutchat_list_iteam.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login2.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_login2.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chat.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\fragment_chat.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_screen.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_add_folders.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\item_add_folders.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_camera.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\fragment_camera.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_right.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\item_right.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_chat.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login2.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_login2.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layoutchat_list_iteam.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\layoutchat_list_iteam.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_chat.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_right.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\item_right.xml"
     },
     {
-        "merged": "D:\\projects\\New folder\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
-        "source": "D:\\projects\\New folder\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     }
 ]
