@@ -9,6 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
@@ -37,6 +38,8 @@ class ProfileFragment : Fragment() {
     ): View? {
         profileViewModel =
             ViewModelProvider(this).get(ProfileViewModel::class.java)
+
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
 
         _binding = FragmentProfileBinding.inflate(inflater, container, false)
         val root: View = binding.root
@@ -85,6 +88,11 @@ class ProfileFragment : Fragment() {
             alertDialog.show()
 
         }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
     }
 
     override fun onDestroyView() {
