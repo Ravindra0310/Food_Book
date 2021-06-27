@@ -3,7 +3,9 @@ package com.ravi.foodbook
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
@@ -11,6 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.ravi.foodbook.databinding.ActivityBottomNavBinding
 import kotlinx.android.synthetic.main.activity_bottom_nav.*
+import kotlinx.android.synthetic.main.app_tool_bar.*
 
 class BottomNavActivity : AppCompatActivity() {
 
@@ -27,7 +30,9 @@ class BottomNavActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val navView: BottomNavigationView = binding.navView
-        setSupportActionBar(findViewById(R.id.my_toolbar))
+
+        setSupportActionBar(my_toolBar)
+
         val navController = findNavController(R.id.nav_host_fragment_activity_bottom_nav)
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
@@ -39,12 +44,14 @@ class BottomNavActivity : AppCompatActivity() {
 
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
     }
-    fun hideBottomNavi() {
+
+    fun hideBottomNavi(){
         nav_view.visibility = View.GONE
     }
 
-    fun showBottomNavi() {
+    fun showBottomNavi(){
         nav_view.visibility = View.VISIBLE
     }
 

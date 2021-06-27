@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
@@ -33,6 +34,8 @@ class ChatFragment : Fragment(){
     ): View? {
         _binding = FragmentChatBinding.inflate(inflater, container, false)
         val root: View = binding.root
+
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
 
         return root
     }
@@ -83,4 +86,10 @@ class ChatFragment : Fragment(){
 
         })
     }
+
+    override fun onResume() {
+        super.onResume()
+        (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
+    }
+
 }

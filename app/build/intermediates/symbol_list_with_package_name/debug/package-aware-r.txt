@@ -34,6 +34,8 @@ anim fragment_fade_exit
 anim fragment_fast_out_extra_slow_in
 anim fragment_open_enter
 anim fragment_open_exit
+anim item_fall_down
+anim layout_animation
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
@@ -655,6 +657,7 @@ attr subtitleTextAppearance
 attr subtitleTextColor
 attr subtitleTextStyle
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -2111,6 +2114,7 @@ drawable ic_baseline_camera_24
 drawable ic_baseline_chat_24
 drawable ic_baseline_check_24
 drawable ic_baseline_close_24
+drawable ic_baseline_file_upload_24
 drawable ic_baseline_flip_camera_android_24
 drawable ic_baseline_insert_photo_24
 drawable ic_baseline_notifications_24
@@ -2166,6 +2170,9 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable potlucklogo
 drawable profile_image
+drawable progress_bar_theme
+drawable rectangle_round_corner_outline
+drawable rectangle_round_corner_theme
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -2325,7 +2332,6 @@ id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id etDescription
-id etFoodType
 id etLocation1
 id etLocation2
 id etLocation3
@@ -2351,7 +2357,6 @@ id fixed
 id floating_action_button_post
 id forever
 id fragment_container_view_tag
-id freshnessSpinner
 id front
 id ghost_view
 id ghost_view_holder
@@ -2430,7 +2435,7 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
-id my_toolbar
+id my_toolBar
 id nav_controller_view_tag
 id nav_host_fragment_activity_bottom_nav
 id nav_host_fragment_container
@@ -2462,8 +2467,10 @@ id peekHeight
 id percent
 id performance
 id pin
-id profileName
-id profilePic
+id postProfileName
+id postProfilePic1
+id postUserNameAndPic
+id priceInputLayout
 id progress_circular
 id progress_horizontal
 id r1
@@ -2498,6 +2505,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id simpleProgressBar
 id skipCollapsed
 id slide
 id smallLabel
@@ -2518,6 +2526,7 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
+id swipeRefreshLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2572,6 +2581,9 @@ id tvUserDescription
 id tvUserLocation
 id tvUserName
 id tvor2
+id typeCold
+id typeFresh
+id typeWaste
 id unchecked
 id uniform
 id unlabeled
@@ -2579,7 +2591,6 @@ id up
 id useLogo
 id userImage
 id userName
-id userNameAndPic
 id userRecyclerView
 id video
 id viewLine
@@ -2658,6 +2669,7 @@ layout activity_login2
 layout activity_main
 layout activity_sign_up
 layout activity_splash_screen
+layout app_tool_bar
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3641,6 +3653,7 @@ styleable SnackbarLayout android_maxWidth actionTextColorAlpha animationMode bac
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text
