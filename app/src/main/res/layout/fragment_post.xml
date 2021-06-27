@@ -74,6 +74,12 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/imageviewPost"
+            android:layout_height="150dp"
+            android:visibility="gone"/>
+
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,15 +104,6 @@
             android:text="Food Type"
             android:textColor="@color/black"
             android:textStyle="bold" />
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:id="@+id/imageviewPost"
-            android:layout_height="150dp"
-            android:visibility="gone"/>
-        <Button
-            android:id="@+id/btnTakePicture"
-            android:layout_width="match_parent"
 
 
         <RadioGroup
@@ -146,7 +143,6 @@
             android:textStyle="bold" />
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/etLocation1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -154,13 +150,13 @@
             android:hint="@string/location1">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etLocation1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/etLocation2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -168,13 +164,13 @@
             android:hint="@string/location2">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etLocation2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/etLocation3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
@@ -182,6 +178,7 @@
             android:hint="@string/location3">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etLocation3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

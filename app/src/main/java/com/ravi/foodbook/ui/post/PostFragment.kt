@@ -5,6 +5,7 @@ import android.app.AlertDialog
 import android.content.DialogInterface
 import android.net.Uri
 import android.os.Bundle
+import android.provider.CalendarContract
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,7 +13,6 @@ import androidx.fragment.app.Fragment
 import android.view.animation.AnimationUtils
 import android.view.animation.LayoutAnimationController
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.findNavController
@@ -23,10 +23,7 @@ import com.ravi.foodbook.BottomNavActivity
 import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentPostBinding
 import com.ravi.foodbook.model.data.PostData
-import kotlinx.android.synthetic.main.activity_bottom_nav.*
-import kotlinx.android.synthetic.main.fragment_home.*
 import kotlinx.android.synthetic.main.fragment_post.*
-import kotlinx.android.synthetic.main.fragment_profile.*
 
 
 class PostFragment : Fragment() {
@@ -88,7 +85,7 @@ class PostFragment : Fragment() {
         val user = auth!!.currentUser
         user?.let {
             val profileUrl = it.photoUrl
-            userName = it.displayName!!
+            //userName = it.displayName!!
             postProfileName.text = "$userName,"
             Glide.with(postProfilePic1.context!!).load(profileUrl).into(postProfilePic1)
 
@@ -115,17 +112,42 @@ class PostFragment : Fragment() {
             priceInputLayout.visibility = View.GONE
         }
 
+        typeFresh.setOnClickListener {
+            freshness = "Fresh"
+        }
+
+        typeWaste.setOnClickListener {
+            freshness = "Waste"
+        }
+
+        typeCold.setOnClickListener {
+            freshness = "Gone Cold"
+        }
+
+        btnSell.setOnClickListener {
+            priceInputLayout.visibility = View.VISIBLE
+            foodType = "Sell"
+        }
+
+        btnDonate.setOnClickListener {
+            foodType = "Donate"
+            priceInputLayout.visibility = View.GONE
+        }
 
         floating_action_button_post.setOnClickListener {
 
             content = etDescription.text.toString()
-            foodType = "dummy"
-            location = StringBuffer(etLocation1.editText.toString()
-                    + etLocation2.editText.toString()
-                    + etLocation3.editText.toString()).toString()
-            freshness = "freshnessSpinner.text.toString()"
-            time = "now"
-            price = "etPrice.editText.toString()"
+
+            location = StringBuffer(etLocation1.text.toString()
+                    + etLocation2.text.toString()
+                    + etLocation3.text.toString()).toString()
+            //freshness = "freshnessSpinner.text.toString()"
+            time = java.util.Calendar.getInstance().time.toString()
+
+            if(foodType.equals("Sell"))
+                price = etPrice.text.toString()
+            else
+                price = "null"
 
             pictureUri= BottomNavActivity.tempFileExt!!
 
@@ -138,7 +160,7 @@ class PostFragment : Fragment() {
                             location = location,
                             freshness = freshness,
                             price = price,
-                            time = "Just now",
+                            time = time,
                             userName = userName,
                             foodPic = pictureUri,
                             userPic = userImage,
@@ -153,7 +175,7 @@ class PostFragment : Fragment() {
                             location = location,
                             freshness = freshness,
                             price = price,
-                            time = "Just now",
+                            time = time,
                             userName = userName,
                             foodPic = "",
                             userPic = userImage,

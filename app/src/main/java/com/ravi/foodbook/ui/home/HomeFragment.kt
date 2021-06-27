@@ -71,30 +71,32 @@ class HomeFragment : Fragment(), OnFoodItemClickListener {
         recycler1.adapter = foodModelAdapter
 
 
-        databaseReference.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(snapshot: DataSnapshot) {
-                if (snapshot.exists()) {
-                    for (i in snapshot.children) {
-                        val foodList = i.getValue(FoodModel::class.java)
+        try {
+            databaseReference.addValueEventListener(object : ValueEventListener {
+                override fun onDataChange(snapshot: DataSnapshot) {
+                    if (snapshot.exists()) {
+                        for (i in snapshot.children) {
+                            val foodList = i.getValue(FoodModel::class.java)
 
-                        foodModelList?.add(foodList!!)
+                            foodModelList?.add(foodList!!)
+                        }
+
+                        simpleProgressBar?.visibility = View.GONE
+
+                        val layoutAnimationController: LayoutAnimationController =
+                            AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation)
+                        recycler1?.layoutAnimation = layoutAnimationController
+
+                        foodModelAdapter.notifyDataSetChanged()
                     }
-
-                    simpleProgressBar?.visibility = View.GONE
-
-                    val layoutAnimationController: LayoutAnimationController =
-                        AnimationUtils.loadLayoutAnimation(context, R.anim.layout_animation)
-                    recycler1?.layoutAnimation = layoutAnimationController
-
-                    foodModelAdapter.notifyDataSetChanged()
                 }
-            }
 
-            override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
-            }
+                override fun onCancelled(error: DatabaseError) {
+                    TODO("Not yet implemented")
+                }
 
-        })
+            })
+        }catch (e : Exception){}
     }
 
     override fun onResume() {

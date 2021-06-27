@@ -13,6 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.ravi.foodbook.databinding.ActivityBottomNavBinding
 import kotlinx.android.synthetic.main.activity_bottom_nav.*
+import kotlinx.android.synthetic.main.app_tool_bar.*
 
 class BottomNavActivity : AppCompatActivity() {
 
@@ -45,4 +46,13 @@ class BottomNavActivity : AppCompatActivity() {
         navView.setupWithNavController(navController)
 
     }
+
+    fun hideBottomNavi(){
+        nav_view.visibility = View.GONE
+    }
+
+    fun showBottomNavi(){
+        nav_view.visibility = View.VISIBLE
+    }
+
 }

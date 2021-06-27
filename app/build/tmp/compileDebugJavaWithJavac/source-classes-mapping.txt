@@ -16,8 +16,8 @@ com/ravi/foodbook/DataBinderMapperImpl.java
  com.ravi.foodbook.DataBinderMapperImpl$InnerLayoutIdLookup
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
-com/ravi/foodbook/databinding/FragmentPostBinding.java
- com.ravi.foodbook.databinding.FragmentPostBinding
+com/ravi/foodbook/databinding/LayoutchatListIteamBinding.java
+ com.ravi.foodbook.databinding.LayoutchatListIteamBinding
 com/ravi/foodbook/databinding/FragmentCameraBinding.java
  com.ravi.foodbook.databinding.FragmentCameraBinding
 com/ravi/foodbook/DataBindingTriggerClass.java
@@ -44,5 +44,5 @@ com/ravi/foodbook/databinding/ActivityLogin2Binding.java
  com.ravi.foodbook.databinding.ActivityLogin2Binding
 com/ravi/foodbook/databinding/FragmentProfileBinding.java
  com.ravi.foodbook.databinding.FragmentProfileBinding
-com/ravi/foodbook/databinding/LayoutchatListIteamBinding.java
- com.ravi.foodbook.databinding.LayoutchatListIteamBinding
+com/ravi/foodbook/databinding/FragmentPostBinding.java
+ com.ravi.foodbook.databinding.FragmentPostBinding
