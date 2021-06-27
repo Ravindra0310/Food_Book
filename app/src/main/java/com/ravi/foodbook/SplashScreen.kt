@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_splash_screen.*
 
 class SplashScreen : AppCompatActivity() {
     private var mDelayHandler: Handler? = null
-    private val SPLASH_DELAY: Long = 3000 //3 seconds
+    private val SPLASH_DELAY: Long = 2000 //3 seconds
 
     internal val mRunnable: Runnable = Runnable {
         if (!isFinishing) {

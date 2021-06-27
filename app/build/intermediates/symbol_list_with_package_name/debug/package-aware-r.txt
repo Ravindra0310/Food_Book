@@ -2243,9 +2243,11 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_navigation_chat_to_chatMessage
+id action_navigation_home_to_postDetailsFragment
 id action_navigation_post_to_cameraFragment
 id action_navigation_post_to_navigation_home
 id action_navigation_post_to_navigation_profile
+id action_postDetailsFragment_to_viewUserFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2272,6 +2274,7 @@ id btJoinGoogle
 id btJoinGoogleLogin
 id btSignUp
 id btnCancel
+id btnCheckProfile
 id btnDonate
 id btnGallery
 id btnSave
@@ -2358,6 +2361,7 @@ id floating_action_button_post
 id forever
 id fragment_container_view_tag
 id front
+id fullImage
 id ghost_view
 id ghost_view_holder
 id give_us_a_review_landmine_button
@@ -2467,6 +2471,7 @@ id peekHeight
 id percent
 id performance
 id pin
+id postDetailsFragment
 id postProfileName
 id postProfilePic1
 id postUserNameAndPic
@@ -2568,14 +2573,15 @@ id tvAbout
 id tvActivePosts
 id tvAddress
 id tvAmount
+id tvAmountText
 id tvContent
-id tvFreshness
 id tvMessage
 id tvNameWhoIsUploading
 id tvPolicy
 id tvRateUs
 id tvRating
 id tvTime
+id tvType
 id tvTypeOfFood
 id tvUserDescription
 id tvUserLocation
@@ -2593,7 +2599,9 @@ id userImage
 id userName
 id userRecyclerView
 id video
+id viewFullImage
 id viewLine
+id viewUserFragment
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2693,7 +2701,9 @@ layout fragment_camera
 layout fragment_chat
 layout fragment_home
 layout fragment_post
+layout fragment_post_details
 layout fragment_profile
+layout fragment_view_user
 layout item_add_folders
 layout item_left
 layout item_right

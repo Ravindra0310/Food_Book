@@ -28,9 +28,9 @@
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_toEndOf="@id/ivImage"
             android:layout_toRightOf="@id/ivImage"
+            android:textColor="@color/black"
             android:text="Name"
-            android:textSize="@dimen/_15sdp"
-            android:textStyle="bold" />
+            android:textSize="@dimen/_15sdp" />
 
         <TextView
             android:id="@+id/tvAddress"
@@ -57,7 +57,22 @@
             android:textSize="@dimen/_10sdp" />
 
         <TextView
+            android:id="@+id/tvType"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ivImage"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="Type"
+            android:textStyle="bold|italic"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_toEndOf="@id/tvType"
+            android:layout_marginStart="@dimen/_5sdp"
             android:id="@+id/tvTypeOfFood"
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/ivImage"
@@ -71,22 +86,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/ivImage"
+            android:textColor="@color/black"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
             android:layout_marginTop="@dimen/_5sdp"
             android:layout_marginRight="@dimen/_5sdp"
-            android:text="price"
-            android:textSize="@dimen/_15sdp" />
+            android:text="100"
+            android:textSize="@dimen/_12sdp" />
 
         <TextView
-            android:id="@+id/tvFreshness"
-            android:layout_width="match_parent"
+            android:id="@+id/tvAmountText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tvAmount"
-            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_below="@id/ivImage"
+            android:layout_toStartOf="@id/tvAmount"
             android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginBottom="@dimen/_5sdp"
-            android:text="freshness"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:text="Price "
             android:textSize="@dimen/_12sdp" />
 
 
@@ -94,21 +112,34 @@
             android:id="@+id/tvContent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tvFreshness"
+            android:layout_below="@id/tvType"
             android:layout_marginLeft="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_5sdp"
+            android:textColor="@color/black"
             android:layout_marginBottom="@dimen/_5sdp"
             android:text="Details about food"
             android:textSize="@dimen/_12sdp" />
 
-        <ImageView
-            android:id="@+id/ivFoodImage"
+
+        <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="@dimen/_300sdp"
+            app:cardCornerRadius="8dp"
             android:layout_below="@+id/tvContent"
-            android:layout_marginBottom="@dimen/_5sdp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ic_launcher_background" />
+            android:layout_marginTop="5dp"
+            android:elevation="10dp">
+
+            <ImageView
+                android:id="@+id/ivFoodImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

@@ -2242,9 +2242,11 @@ int id action_mode_bar 0x7f09003d
 int id action_mode_bar_stub 0x7f09003e
 int id action_mode_close_button 0x7f09003f
 int id action_navigation_chat_to_chatMessage 0x7f090040
+int id action_navigation_home_to_postDetailsFragment 0x7f0901a7
 int id action_navigation_post_to_cameraFragment 0x7f090041
 int id action_navigation_post_to_navigation_home 0x7f090042
 int id action_navigation_post_to_navigation_profile 0x7f090043
+int id action_postDetailsFragment_to_viewUserFragment 0x7f0901a8
 int id action_text 0x7f090044
 int id actions 0x7f090045
 int id activity_chooser_view_content 0x7f090046
@@ -2271,6 +2273,7 @@ int id btJoinGoogle 0x7f09005a
 int id btJoinGoogleLogin 0x7f09005b
 int id btSignUp 0x7f09005c
 int id btnCancel 0x7f09005d
+int id btnCheckProfile 0x7f0901ad
 int id btnDonate 0x7f09005e
 int id btnGallery 0x7f09005f
 int id btnSave 0x7f090060
@@ -2357,6 +2360,7 @@ int id floating_action_button_post 0x7f0900b0
 int id forever 0x7f0900b1
 int id fragment_container_view_tag 0x7f0900b2
 int id front 0x7f0900b3
+int id fullImage 0x7f0901ae
 int id ghost_view 0x7f0900b4
 int id ghost_view_holder 0x7f0900b5
 int id give_us_a_review_landmine_button 0x7f0900b6
@@ -2466,6 +2470,7 @@ int id peekHeight 0x7f09011d
 int id percent 0x7f09011e
 int id performance 0x7f09011f
 int id pin 0x7f090120
+int id postDetailsFragment 0x7f0901a9
 int id postProfileName 0x7f090121
 int id postProfilePic1 0x7f090122
 int id postUserNameAndPic 0x7f090123
@@ -2567,14 +2572,15 @@ int id tvAbout 0x7f090182
 int id tvActivePosts 0x7f090183
 int id tvAddress 0x7f090184
 int id tvAmount 0x7f090185
+int id tvAmountText 0x7f0901aa
 int id tvContent 0x7f090186
-int id tvFreshness 0x7f090187
 int id tvMessage 0x7f090188
 int id tvNameWhoIsUploading 0x7f090189
 int id tvPolicy 0x7f09018a
 int id tvRateUs 0x7f09018b
 int id tvRating 0x7f09018c
 int id tvTime 0x7f09018d
+int id tvType 0x7f0901ab
 int id tvTypeOfFood 0x7f09018e
 int id tvUserDescription 0x7f09018f
 int id tvUserLocation 0x7f090190
@@ -2592,7 +2598,9 @@ int id userImage 0x7f09019b
 int id userName 0x7f09019c
 int id userRecyclerView 0x7f09019d
 int id video 0x7f09019e
+int id viewFullImage 0x7f0901af
 int id viewLine 0x7f09019f
+int id viewUserFragment 0x7f0901ac
 int id view_offset_helper 0x7f0901a0
 int id visible 0x7f0901a1
 int id visible_removing_fragment_view_tag 0x7f0901a2
@@ -2692,7 +2700,9 @@ int layout fragment_camera 0x7f0c0036
 int layout fragment_chat 0x7f0c0037
 int layout fragment_home 0x7f0c0038
 int layout fragment_post 0x7f0c0039
+int layout fragment_post_details 0x7f0c007a
 int layout fragment_profile 0x7f0c003a
+int layout fragment_view_user 0x7f0c007b
 int layout item_add_folders 0x7f0c003b
 int layout item_left 0x7f0c003c
 int layout item_right 0x7f0c003d
