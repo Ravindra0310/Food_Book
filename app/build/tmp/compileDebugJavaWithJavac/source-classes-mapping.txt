@@ -8,6 +8,8 @@ com/ravi/foodbook/databinding/FragmentChatBinding.java
  com.ravi.foodbook.databinding.FragmentChatBinding
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
+com/ravi/foodbook/databinding/AppToolBarBinding.java
+ com.ravi.foodbook.databinding.AppToolBarBinding
 com/ravi/foodbook/DataBinderMapperImpl.java
  com.ravi.foodbook.DataBinderMapperImpl
  com.ravi.foodbook.DataBinderMapperImpl$InnerBrLookup

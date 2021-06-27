@@ -4,20 +4,8 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_policy.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_potluck_round.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_potluck_round.png"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_potluck_foreground.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_potluck_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_check_24.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_check_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_potluck_background.xml.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_potluck_background.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blueroundbox.xml.flat",
@@ -48,10 +36,6 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_potluck_foreground.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-mdpi\\ic_potluck_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_person_24.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_person_24.xml"
     },
@@ -72,20 +56,12 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_potluck_round.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-hdpi\\ic_potluck_round.png"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_file_upload_24.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_file_upload_24.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bottom_nav.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_bottom_nav.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_potluck_round.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xhdpi\\ic_potluck_round.png"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_button_background.xml.flat",
@@ -108,12 +84,12 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\font_citrica_regular.ttf.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\font\\citrica_regular.ttf"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_tool_bar.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\app_tool_bar.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_potluck.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xhdpi\\ic_potluck.png"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\font_citrica_regular.ttf.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\font\\citrica_regular.ttf"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
@@ -128,16 +104,8 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_potluck_round.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_potluck_round.png"
-    },
-    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_search.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_potluck_foreground.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_potluck_foreground.png"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_about.xml.flat",
@@ -148,20 +116,12 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_flip_camera_android_24.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_potlucklogo.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\potlucklogo.png"
-    },
-    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_left.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\item_left.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_back.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_potluck.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_potluck.png"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rate_us.xml.flat",
@@ -188,12 +148,12 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\color_4.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_potluck.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_potluck.png"
-    },
-    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress_bar_theme.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\progress_bar_theme.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
@@ -220,20 +180,8 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_insert_photo_24.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_potluck.xml.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_potluck.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_potluck_foreground.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xhdpi\\ic_potluck_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_color_1.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\color_1.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_potluck.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-mdpi\\ic_potluck.png"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_right.xml.flat",
@@ -242,10 +190,6 @@
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_chat_24.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\ic_baseline_chat_24.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_potluck_round.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-mdpi\\ic_potluck_round.png"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
@@ -288,24 +232,24 @@
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_round_corner_outline.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\rectangle_round_corner_outline.xml"
+    },
+    {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login2.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\layout\\activity_login2.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_potluck_round.xml.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_potluck_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_potluck.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-hdpi\\ic_potluck.png"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\anim_item_fall_down.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\anim\\item_fall_down.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_color_2.xml.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\color_2.xml"
     },
     {
-        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_potluck_foreground.png.flat",
-        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-hdpi\\ic_potluck_foreground.png"
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rectangle_round_corner_theme.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\drawable\\rectangle_round_corner_theme.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_close_24.xml.flat",
@@ -314,6 +258,10 @@
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\anim_layout_animation.xml.flat",
+        "source": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\src\\main\\res\\anim\\layout_animation.xml"
     },
     {
         "merged": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chat.xml.flat",
