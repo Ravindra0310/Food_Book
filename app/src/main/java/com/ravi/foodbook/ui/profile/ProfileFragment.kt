@@ -12,6 +12,7 @@ import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
+import com.ravi.foodbook.LoginActivity
 import com.ravi.foodbook.MainActivity
 import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentHomeBinding
@@ -50,12 +51,12 @@ class ProfileFragment : Fragment() {
 
         val user = auth!!.currentUser
         user?.let {
-            val arr = it.email!!.split('@')
-            tvUserName.text = arr[0]
-
+            tvUserName.text = it.displayName
+            tvUserDescription.text = "desc"
             val profileUrl = it.photoUrl
             Glide.with(ivUserProfileImage.context).load(profileUrl).into(ivUserProfileImage)
 
+            tvUserLocation.text = "Mumbai"
         }
 
 
@@ -70,7 +71,7 @@ class ProfileFragment : Fragment() {
             )
             builder.setPositiveButton("SIGN OUT") { dialog: DialogInterface?, which: Int ->
                 auth!!.signOut()
-                val intent = Intent(activity, MainActivity::class.java)
+                val intent = Intent(activity, LoginActivity::class.java)
                 startActivity(intent)
                 requireActivity().finish()
             }
