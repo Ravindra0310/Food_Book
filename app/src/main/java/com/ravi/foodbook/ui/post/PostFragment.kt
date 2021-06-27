@@ -55,7 +55,7 @@ class PostFragment : Fragment() {
     ): View? {
         postViewModel =
             ViewModelProvider(this).get(PostViewModel::class.java)
-            repository= LinkedInRepository()
+        repository = LinkedInRepository()
         _binding = FragmentPostBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
@@ -91,10 +91,10 @@ class PostFragment : Fragment() {
 
         }
 
-        btnTakePicture.setOnClickListener{
-                        navController.navigate(
-                    R.id.action_navigation_post_to_cameraFragment
-                )
+        btnTakePicture.setOnClickListener {
+            navController.navigate(
+                R.id.action_navigation_post_to_cameraFragment
+            )
         }
 
         postUserNameAndPic.setOnClickListener {
@@ -135,21 +135,23 @@ class PostFragment : Fragment() {
         }
 
         floating_action_button_post.setOnClickListener {
+            if (isValid()) {
+                content = etDescription.text.toString()
 
-            content = etDescription.text.toString()
+                location = StringBuffer(
+                    etLocation1.text.toString()
+                            + etLocation2.text.toString()
+                            + etLocation3.text.toString()
+                ).toString()
+                //freshness = "freshnessSpinner.text.toString()"
+                time = java.util.Calendar.getInstance().time.toString()
 
-            location = StringBuffer(etLocation1.text.toString()
-                    + etLocation2.text.toString()
-                    + etLocation3.text.toString()).toString()
-            //freshness = "freshnessSpinner.text.toString()"
-            time = java.util.Calendar.getInstance().time.toString()
+                if (foodType.equals("Sell"))
+                    price = etPrice.text.toString()
+                else
+                    price = "null"
 
-            if(foodType.equals("Sell"))
-                price = etPrice.text.toString()
-            else
-                price = "null"
-
-            pictureUri= BottomNavActivity.tempFileExt!!
+                pictureUri = BottomNavActivity.tempFileExt!!
 
                 val type = BottomNavActivity.tempFileExt;
                 if (type == "jpg" || type == "bmp" || type == "jpeg" || type == "png") {
@@ -167,7 +169,7 @@ class PostFragment : Fragment() {
                             uid = userUid
                         )
                     )
-                }else{
+                } else {
                     repository.addPost(
                         PostData(
                             content = content,
@@ -197,27 +199,42 @@ class PostFragment : Fragment() {
 //            postViewModel.addPost(postData)
 
 
-
-            val builder = AlertDialog.Builder(requireContext())
-            builder.setTitle("Thank you for posting")
-            builder.setMessage("We will connect you to a receiver soon")
-            builder.setPositiveButton("Ok") { dialog: DialogInterface?, which: Int ->
-                navController.navigate(R.id.action_navigation_post_to_navigation_home)
+                val builder = AlertDialog.Builder(requireContext())
+                builder.setTitle("Thank you for posting")
+                builder.setMessage("We will connect you to a receiver soon")
+                builder.setPositiveButton("Ok") { dialog: DialogInterface?, which: Int ->
+                    navController.navigate(R.id.action_navigation_post_to_navigation_home)
+                }
+                // Create the AlertDialog
+                val alertDialog: AlertDialog = builder.create()
+                // Set other dialog properties
+                alertDialog.setCancelable(true)
+                alertDialog.show()
             }
-            // Create the AlertDialog
-            val alertDialog: AlertDialog = builder.create()
-            // Set other dialog properties
-            alertDialog.setCancelable(true)
-            alertDialog.show()
 
         }
+    }
+
+    private fun isValid(): Boolean {
+        if (etDescription.text.toString().isEmpty()) {
+            etDescription.error = "Should not be Empty"
+            return false
+        }
+        if (etLocation1.text.toString().isBlank()) {
+            etLocation1.error = "Should not be Empty"
+            return false
+        }
+        if (etLocation3.text.toString().isBlank()) {
+            etLocation3.error = "Should not be Empty"
+        }
+        return true
     }
 
 
     override fun onResume() {
         super.onResume()
-        if(BottomNavActivity.tempPicPath!=null){
-            imageviewPost.visibility=View.VISIBLE
+        if (BottomNavActivity.tempPicPath != null) {
+            imageviewPost.visibility = View.VISIBLE
             imageviewPost.setImageURI(BottomNavActivity.tempPicPath)
         }
         (activity as AppCompatActivity?)!!.supportActionBar!!.hide()
