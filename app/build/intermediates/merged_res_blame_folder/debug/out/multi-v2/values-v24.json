@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\a1481\\Desktop\\Repos\\hackthon\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Food_Book\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\a1481\\.gradle\\caches\\transforms-2\\files-2.1\\7938ed1a1d4b62892a48c9f254167d3f\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Pawan Wani\\.gradle\\caches\\transforms-2\\files-2.1\\7938ed1a1d4b62892a48c9f254167d3f\\appcompat-1.1.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\a1481\\.gradle\\caches\\transforms-2\\files-2.1\\53ca05aa74c5df1a73cfd232fefdc9f5\\media-1.0.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Pawan Wani\\.gradle\\caches\\transforms-2\\files-2.1\\53ca05aa74c5df1a73cfd232fefdc9f5\\media-1.0.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

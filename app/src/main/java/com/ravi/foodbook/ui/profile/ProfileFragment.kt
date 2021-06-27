@@ -13,6 +13,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.*
+import com.ravi.foodbook.LoginActivity
 import com.ravi.foodbook.MainActivity
 import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentHomeBinding
@@ -25,6 +27,7 @@ class ProfileFragment : Fragment() {
     private lateinit var profileViewModel: ProfileViewModel
     private var _binding: FragmentProfileBinding? = null
     var auth: FirebaseAuth? = null
+    lateinit var postReference: DatabaseReference
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -51,17 +54,36 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         auth = FirebaseAuth.getInstance()
 
+
         val user = auth!!.currentUser
         user?.let {
-            val arr = it.email!!.split('@')
-            tvUserName.text = arr[0]
-
+            tvUserName.text = it.displayName
+            tvUserDescription.text = "Im restaurant owner"
             val profileUrl = it.photoUrl
             Glide.with(ivUserProfileImage.context).load(profileUrl).into(ivUserProfileImage)
 
+            tvUserLocation.text = "Mumbai"
         }
 
+        val currentUserId = auth!!.currentUser?.uid
+        postReference = FirebaseDatabase.getInstance().getReference("posts")
+        if (currentUserId != null) {
+            postReference.orderByChild("uid")
+                .startAt(currentUserId).endAt(currentUserId + "uf8ff")
+                .addValueEventListener(object : ValueEventListener {
+                    override fun onDataChange(snapshot: DataSnapshot) {
+                        if (snapshot.exists()) {
+                            val countPost = snapshot.childrenCount
+                            tvActivePosts.text = "${countPost.toString()} active posts"
+                        }
+                    }
 
+                    override fun onCancelled(error: DatabaseError) {
+                        tvActivePosts.text = "0 active posts"
+                    }
+
+                })
+        }
 
 
         logOut.setOnClickListener {
@@ -73,7 +95,7 @@ class ProfileFragment : Fragment() {
             )
             builder.setPositiveButton("SIGN OUT") { dialog: DialogInterface?, which: Int ->
                 auth!!.signOut()
-                val intent = Intent(activity, MainActivity::class.java)
+                val intent = Intent(activity, LoginActivity::class.java)
                 startActivity(intent)
                 requireActivity().finish()
             }
@@ -88,6 +110,7 @@ class ProfileFragment : Fragment() {
 
         }
     }
+
 
     override fun onResume() {
         super.onResume()

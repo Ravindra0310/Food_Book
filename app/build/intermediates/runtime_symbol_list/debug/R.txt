@@ -2107,6 +2107,7 @@ int drawable edittext_background 0x7f070086
 int drawable googleg_disabled_color_18 0x7f070087
 int drawable googleg_standard_color_18 0x7f070088
 int drawable ic_about 0x7f070089
+int drawable ic_active_post 0x7f0700d0
 int drawable ic_back 0x7f07008a
 int drawable ic_baseline_add_24 0x7f07008b
 int drawable ic_baseline_camera_24 0x7f07008c
@@ -2118,6 +2119,7 @@ int drawable ic_baseline_flip_camera_android_24 0x7f070091
 int drawable ic_baseline_insert_photo_24 0x7f070092
 int drawable ic_baseline_notifications_24 0x7f070093
 int drawable ic_baseline_person_24 0x7f070094
+int drawable ic_baseline_person_outline_24 0x7f0700d1
 int drawable ic_calendar_black_24dp 0x7f070095
 int drawable ic_clear_black_24dp 0x7f070096
 int drawable ic_dashboard_black_24dp 0x7f070097
@@ -2168,6 +2170,7 @@ int drawable notification_template_icon_low_bg 0x7f0700c3
 int drawable notification_tile_bg 0x7f0700c4
 int drawable notify_panel_notification_icon_bg 0x7f0700c5
 int drawable potlucklogo 0x7f0700c6
+int drawable potlucklogo_login 0x7f0700cf
 int drawable profile_image 0x7f0700c7
 int drawable progress_bar_theme 0x7f0700c8
 int drawable rectangle_round_corner_outline 0x7f0700c9
@@ -2405,6 +2408,7 @@ int id listMode 0x7f0900dc
 int id list_item 0x7f0900dd
 int id llBack 0x7f0900de
 int id logOut 0x7f0900df
+int id login_logo 0x7f0901a8
 int id masked 0x7f0900e0
 int id media_actions 0x7f0900e1
 int id message 0x7f0900e2
@@ -2478,6 +2482,7 @@ int id priceInputLayout 0x7f090124
 int id progress_circular 0x7f090125
 int id progress_horizontal 0x7f090126
 int id r1 0x7f090127
+int id rLayout 0x7f0901a7
 int id radio 0x7f090128
 int id recycler1 0x7f090129
 int id right 0x7f09012a
