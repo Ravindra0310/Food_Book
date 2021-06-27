@@ -1,6 +1,6 @@
 package com.ravi.foodbook.model
 
-data class FoodModel(
+data class FoodModel (
     val userName: String? = "",
     val userPic: String?= "",
     val content: String?= "",

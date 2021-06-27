@@ -8,9 +8,11 @@ import android.view.animation.AnimationUtils
 import android.view.animation.LayoutAnimationController
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.database.*
 import com.ravi.foodbook.OnFoodItemClickListener
@@ -20,6 +22,7 @@ import com.ravi.foodbook.model.FoodModel
 import com.ravi.foodbook.model.FoodModelAdapter
 import kotlinx.android.synthetic.main.activity_bottom_nav.*
 import kotlinx.android.synthetic.main.fragment_home.*
+import java.io.Serializable
 
 class HomeFragment : Fragment(), OnFoodItemClickListener {
 
@@ -111,7 +114,10 @@ class HomeFragment : Fragment(), OnFoodItemClickListener {
     }
 
     override fun onItemClick(foodModel: FoodModel) {
-
-        TODO("Not yet implemented")
+        val navController = findNavController()
+        val arrList = arrayListOf(foodModel.userName)
+        val bundle = Bundle()
+        bundle.putStringArrayList("postData",arrList)
+        navController.navigate(R.id.action_navigation_home_to_postDetailsFragment, bundle)
     }
 }
