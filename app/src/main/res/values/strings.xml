@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FoodBook</string>
+    <string name="app_name">Potluck</string>
     <string name="title_activity_bottom_nav">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_profile">Profile</string>

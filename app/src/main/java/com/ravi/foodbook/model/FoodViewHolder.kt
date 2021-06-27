@@ -17,11 +17,21 @@ class FoodViewHolder(
             Glide.with(ivImage.context).load(foodModel.userPic).into(ivImage)
             tvNameWhoIsUploading.text = foodModel.userName
             tvAddress.text = foodModel.location
+
+//            val time = foodModel.time?.split(" ")
+//            val hr = time?.get(2)?.split(":")
             tvTime.text = foodModel.time
-            tvTypeOfFood.text = foodModel.foodType
-            tvAmount.text = foodModel.freshness
+            tvTypeOfFood.text = foodModel.freshness
+
+            if(foodModel.foodType.equals("Sell")){
+                tvAmount.text = foodModel.price
+                tvAmountText.visibility = View.VISIBLE
+            }else{
+                tvAmountText.text = "Free"
+                tvAmount.visibility = View.INVISIBLE
+            }
+
             tvContent.text = foodModel.content
-            tvFreshness.text = foodModel.freshness
             Glide.with(ivFoodImage.context).load(foodModel.foodPic).into(ivFoodImage)
 
             layout_food_item.setOnClickListener {

@@ -9,7 +9,11 @@
         android:id="@+id/navigation_home"
         android:name="com.ravi.foodbook.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_detailedPostActivity"
+            app:destination="@id/detailedPostActivity" />
+    </fragment>
     <fragment
         android:id="@+id/navigation_post"
         android:name="com.ravi.foodbook.ui.post.PostFragment"
@@ -59,6 +63,30 @@
             android:id="@+id/action_cameraFragment_to_navigation_post"
             app:destination="@id/navigation_post" />
     </fragment>
+    <fragment
+        android:id="@+id/viewUserFragment"
+        android:name="com.ravi.foodbook.ui.user.ViewUserFragment"
+        android:label="fragment_view_user"
+        tools:layout="@layout/fragment_view_user" />
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="com.ravi.foodbook.ui.user.PostDetailsFragment"
+        android:label="fragment_post_details"
+        tools:layout="@layout/fragment_post_details" >
+        <action
+            android:id="@+id/action_postDetailsFragment_to_viewUserFragment"
+            app:destination="@id/viewUserFragment" />
+        <argument
+            android:name="userDetailsToDetails"
+            app:argType="string"
+            android:defaultValue="default" />
+    </fragment>
+    <activity
+        android:id="@+id/detailedPostActivity"
+        android:name="com.ravi.foodbook.ui.user.DetailedPostActivity"
+        android:label="activity_detailed_post"
+        tools:layout="@layout/activity_detailed_post"/>
+
 
 
 </navigation>

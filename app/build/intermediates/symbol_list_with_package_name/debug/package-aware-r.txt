@@ -2108,6 +2108,7 @@ drawable edittext_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_about
+drawable ic_active_post
 drawable ic_back
 drawable ic_baseline_add_24
 drawable ic_baseline_camera_24
@@ -2119,6 +2120,7 @@ drawable ic_baseline_flip_camera_android_24
 drawable ic_baseline_insert_photo_24
 drawable ic_baseline_notifications_24
 drawable ic_baseline_person_24
+drawable ic_baseline_person_outline_24
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_dashboard_black_24dp
@@ -2169,6 +2171,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable potlucklogo
+drawable potlucklogo_login
 drawable profile_image
 drawable progress_bar_theme
 drawable rectangle_round_corner_outline
@@ -2243,9 +2246,11 @@ id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
 id action_navigation_chat_to_chatMessage
+id action_navigation_home_to_detailedPostActivity
 id action_navigation_post_to_cameraFragment
 id action_navigation_post_to_navigation_home
 id action_navigation_post_to_navigation_profile
+id action_postDetailsFragment_to_viewUserFragment
 id action_text
 id actions
 id activity_chooser_view_content
@@ -2321,6 +2326,20 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailbtnCheckProfile
+id detailedPostActivity
+id detailfloating_action_button_post
+id detailfullImage
+id detailivFoodImage
+id detailivImage
+id detailtvAddress
+id detailtvAmount
+id detailtvAmountText
+id detailtvContent
+id detailtvNameWhoIsUploading
+id detailtvTime
+id detailtvType
+id detailviewFullImage
 id dialog_button
 id dimensions
 id direct
@@ -2402,6 +2421,7 @@ id listMode
 id list_item
 id llBack
 id logOut
+id login_logo
 id masked
 id media_actions
 id message
@@ -2467,6 +2487,7 @@ id peekHeight
 id percent
 id performance
 id pin
+id postDetailsFragment
 id postProfileName
 id postProfilePic1
 id postUserNameAndPic
@@ -2474,6 +2495,7 @@ id priceInputLayout
 id progress_circular
 id progress_horizontal
 id r1
+id rLayout
 id radio
 id recycler1
 id right
@@ -2568,14 +2590,15 @@ id tvAbout
 id tvActivePosts
 id tvAddress
 id tvAmount
+id tvAmountText
 id tvContent
-id tvFreshness
 id tvMessage
 id tvNameWhoIsUploading
 id tvPolicy
 id tvRateUs
 id tvRating
 id tvTime
+id tvType
 id tvTypeOfFood
 id tvUserDescription
 id tvUserLocation
@@ -2594,6 +2617,7 @@ id userName
 id userRecyclerView
 id video
 id viewLine
+id viewUserFragment
 id view_offset_helper
 id visible
 id visible_removing_fragment_view_tag
@@ -2665,6 +2689,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bottom_nav
 layout activity_chat
+layout activity_detailed_post
 layout activity_login2
 layout activity_main
 layout activity_sign_up
@@ -2693,7 +2718,9 @@ layout fragment_camera
 layout fragment_chat
 layout fragment_home
 layout fragment_post
+layout fragment_post_details
 layout fragment_profile
+layout fragment_view_user
 layout item_add_folders
 layout item_left
 layout item_right

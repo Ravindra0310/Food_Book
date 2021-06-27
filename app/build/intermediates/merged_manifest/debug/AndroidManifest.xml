@@ -36,6 +36,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.FoodBook" >
+        <activity android:name="com.ravi.foodbook.ui.user.DetailedPostActivity" />
         <activity android:name="com.ravi.foodbook.SplashScreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

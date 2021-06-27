@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -36,6 +37,9 @@ public final class ActivityLogin2Binding implements ViewBinding {
   public final Button btSignUp;
 
   @NonNull
+  public final ImageView loginLogo;
+
+  @NonNull
   public final TextView textView4;
 
   @NonNull
@@ -46,14 +50,15 @@ public final class ActivityLogin2Binding implements ViewBinding {
 
   private ActivityLogin2Binding(@NonNull ConstraintLayout rootView, @NonNull EditText EtJoinEmail,
       @NonNull EditText EtJoinPass, @NonNull Button btJoinContinue,
-      @NonNull Button btJoinGoogleLogin, @NonNull Button btSignUp, @NonNull TextView textView4,
-      @NonNull TextView textView6, @NonNull TextView tvor2) {
+      @NonNull Button btJoinGoogleLogin, @NonNull Button btSignUp, @NonNull ImageView loginLogo,
+      @NonNull TextView textView4, @NonNull TextView textView6, @NonNull TextView tvor2) {
     this.rootView = rootView;
     this.EtJoinEmail = EtJoinEmail;
     this.EtJoinPass = EtJoinPass;
     this.btJoinContinue = btJoinContinue;
     this.btJoinGoogleLogin = btJoinGoogleLogin;
     this.btSignUp = btSignUp;
+    this.loginLogo = loginLogo;
     this.textView4 = textView4;
     this.textView6 = textView6;
     this.tvor2 = tvor2;
@@ -116,6 +121,12 @@ public final class ActivityLogin2Binding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.login_logo;
+      ImageView loginLogo = rootView.findViewById(id);
+      if (loginLogo == null) {
+        break missingId;
+      }
+
       id = R.id.textView4;
       TextView textView4 = rootView.findViewById(id);
       if (textView4 == null) {
@@ -135,7 +146,7 @@ public final class ActivityLogin2Binding implements ViewBinding {
       }
 
       return new ActivityLogin2Binding((ConstraintLayout) rootView, EtJoinEmail, EtJoinPass,
-          btJoinContinue, btJoinGoogleLogin, btSignUp, textView4, textView6, tvor2);
+          btJoinContinue, btJoinGoogleLogin, btSignUp, loginLogo, textView4, textView6, tvor2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

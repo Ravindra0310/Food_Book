@@ -18,12 +18,12 @@
         android:layout_height="match_parent" />
 
     <Button
-        android:backgroundTint="@color/white"
         android:id="@+id/button1"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_margin="25dp"
         android:background="@drawable/ic_baseline_flip_camera_android_24"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -33,55 +33,55 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_margin="15dp"
-        android:backgroundTint="@color/white"
         android:background="@drawable/ic_baseline_camera_24"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:backgroundTint="@color/white"
         android:id="@+id/btnGallery"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_margin="25dp"
         android:background="@drawable/ic_baseline_insert_photo_24"
+        android:backgroundTint="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-       android:backgroundTint="@color/white"
         android:id="@+id/imgContainer"
-        android:background="@drawable/insta_animation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/insta_animation"
+        android:backgroundTint="@color/white"
         android:visibility="gone">
 
         <Button
-            android:backgroundTint="@color/white"
             android:id="@+id/btnCancel"
-            android:layout_width= "35dp"
+            android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_margin="25dp"
             android:background="@drawable/ic_baseline_close_24"
+            android:backgroundTint="@color/blueBox"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:backgroundTint="@color/white"
             android:id="@+id/btnSave"
-            android:layout_width= "35dp"
+            android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_margin="25dp"
             android:background="@drawable/ic_baseline_check_24"
+            android:backgroundTint="@color/blueBox"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:backgroundTint="@color/white"
             android:id="@+id/imageView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:backgroundTint="@color/white"
             android:src="@drawable/ic_home" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

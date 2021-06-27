@@ -16,12 +16,12 @@
         <ImageView
             android:id="@+id/imgBack"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
             android:layout_height="32dp"
             android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
             android:padding="5dp"
-            android:src="@drawable/ic_back"
-            android:layout_marginLeft="10dp" />
+            android:src="@drawable/ic_back" />
 
         <TextView
             android:id="@+id/tvUserName"
@@ -34,18 +34,18 @@
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/imgProfile"
             android:layout_width="0dp"
-            android:layout_weight="0.5"
             android:layout_height="42dp"
+            android:layout_weight="0.5"
             android:padding="5dp"
             android:src="@mipmap/ic_launcher" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@id/l1"
+        android:id="@+id/chatRecyclerView"
         android:layout_width="match_parent"
-        android:layout_above="@id/r1"
         android:layout_height="match_parent"
-        android:id="@+id/chatRecyclerView"/>
+        android:layout_above="@id/r1"
+        android:layout_below="@id/l1" />
 
     <RelativeLayout
         android:id="@+id/r1"
@@ -63,19 +63,21 @@
                 android:id="@+id/etMessage"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_5sdp"
                 android:layout_weight="1"
-                android:inputType="text"
                 android:background="@color/white"
                 android:hint="Enter The Message to Send"
+                android:inputType="text"
                 android:padding="12dp"
                 android:textColor="@color/black" />
 
             <ImageButton
                 android:id="@+id/btnSendMessage"
                 android:layout_width="40dp"
-                android:src="@drawable/ic_send"
+                android:layout_height="40dp"
+                android:layout_margin="@dimen/_5sdp"
                 android:background="@drawable/button_background"
-                android:layout_height="40dp" />
+                android:src="@drawable/ic_send" />
 
         </LinearLayout>
 
