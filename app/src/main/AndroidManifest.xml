@@ -20,6 +20,7 @@
         android:roundIcon="@mipmap/ic_potluck"
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodBook">
+        <activity android:name=".ui.user.DetailedPostActivity"></activity>
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".ui.chat.ChatActivity" />
         <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity"/>
+        <activity android:name=".LoginActivity" />
         <activity android:name=".BottomNavActivity" />
     </application>
 

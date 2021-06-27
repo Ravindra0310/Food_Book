@@ -1,5 +1,6 @@
 package com.ravi.foodbook.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -20,6 +21,7 @@ import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentHomeBinding
 import com.ravi.foodbook.model.FoodModel
 import com.ravi.foodbook.model.FoodModelAdapter
+import com.ravi.foodbook.ui.user.DetailedPostActivity
 import kotlinx.android.synthetic.main.activity_bottom_nav.*
 import kotlinx.android.synthetic.main.fragment_home.*
 import java.io.Serializable
@@ -116,9 +118,21 @@ class HomeFragment : Fragment(), OnFoodItemClickListener {
 
     override fun onItemClick(foodModel: FoodModel) {
         val navController = findNavController()
-        val arrList = arrayListOf(foodModel.userName)
         val bundle = Bundle()
-        bundle.putStringArrayList("postData",arrList)
-        navController.navigate(R.id.action_navigation_home_to_postDetailsFragment, bundle)
+
+        //navController.navigate(R.id.action_navigation_home_to_detailedPostActivity, bundle)
+        val intent = Intent(context,DetailedPostActivity::class.java)
+        intent.putExtra("content",foodModel.content)
+        intent.putExtra("userNameHome",foodModel.userName)
+        intent.putExtra("foodPic",foodModel.foodPic)
+        intent.putExtra("foodType",foodModel.foodType)
+        intent.putExtra("freshness",foodModel.freshness)
+        intent.putExtra("location",foodModel.location)
+        intent.putExtra("price",foodModel.price)
+        intent.putExtra("time",foodModel.time)
+        intent.putExtra("userPic",foodModel.userPic)
+        intent.putExtra("userIdHome",foodModel.uid)
+        startActivity(intent)
+
     }
 }

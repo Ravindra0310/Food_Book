@@ -11,8 +11,8 @@
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" >
         <action
-            android:id="@+id/action_navigation_home_to_postDetailsFragment"
-            app:destination="@id/postDetailsFragment" />
+            android:id="@+id/action_navigation_home_to_detailedPostActivity"
+            app:destination="@id/detailedPostActivity" />
     </fragment>
     <fragment
         android:id="@+id/navigation_post"
@@ -76,7 +76,17 @@
         <action
             android:id="@+id/action_postDetailsFragment_to_viewUserFragment"
             app:destination="@id/viewUserFragment" />
+        <argument
+            android:name="userDetailsToDetails"
+            app:argType="string"
+            android:defaultValue="default" />
     </fragment>
+    <activity
+        android:id="@+id/detailedPostActivity"
+        android:name="com.ravi.foodbook.ui.user.DetailedPostActivity"
+        android:label="activity_detailed_post"
+        tools:layout="@layout/activity_detailed_post"/>
+
 
 
 </navigation>

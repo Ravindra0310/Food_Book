@@ -24,7 +24,7 @@ class FoodViewHolder(
             tvTypeOfFood.text = foodModel.freshness
 
             if(foodModel.foodType.equals("Sell")){
-                tvAmount.text = foodModel.amount
+                tvAmount.text = foodModel.price
                 tvAmountText.visibility = View.VISIBLE
             }else{
                 tvAmountText.text = "Free"

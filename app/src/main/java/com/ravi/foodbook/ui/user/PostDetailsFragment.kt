@@ -7,13 +7,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.findNavController
+import androidx.navigation.fragment.navArgs
 import com.ravi.foodbook.R
 import com.ravi.foodbook.databinding.FragmentPostDetailsBinding
 import com.ravi.foodbook.databinding.FragmentViewUserBinding
 
 class PostDetailsFragment : Fragment() {
     private var _binding: FragmentPostDetailsBinding? = null
-
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -37,6 +37,7 @@ class PostDetailsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val navController = findNavController()
+
 
     }
 
