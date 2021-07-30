@@ -19,7 +19,7 @@
 </ul>
 
 <hr>
-<h3>Screenshort and description</h3>
+<h3>Screenshorts</h3>
 <img src="https://miro.medium.com/max/700/1*WWPNXH7J23f4FXL5ZJy-CQ.jpeg" width="500" height="333">
 
 <hr>
